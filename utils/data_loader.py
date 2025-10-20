@@ -7,14 +7,13 @@ def load_ciclos_data():
     """Carga los datos de ciclos formativos desde el archivo JSON"""
 
     try:
-        # RUTA CORREGIDA: Esto soluciona los errores de ruta y existencia
+        # RUTA CORREGIDA
         data_path = "data/ciclos_sanitarios.json"
 
         with open(data_path, "r", encoding="utf-8") as file:
             return json.load(file)
 
     except Exception as e:
-        # Si falla, muestra el error y usa datos por defecto
         st.error(f"Error al cargar los datos: {str(e)}")
         return get_default_data()
 
