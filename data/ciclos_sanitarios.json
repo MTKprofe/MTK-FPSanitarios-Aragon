@@ -1,0 +1,2213 @@
+{
+  "grado_medio": {
+    "Cuidados Auxiliares de Enfermería": {
+      "codigo": "SAN201",
+      "duracion": "1400 horas",
+      "modulos": {
+        "Operaciones administrativas y documentación sanitaria": {
+          "codigo": "0020",
+          "horas": 65,
+          "resultados_aprendizaje": [
+            "Organiza el trabajo propio de la consulta médica relacionándolo con el tipo de servicio sanitario",
+            "Prepara los recursos materiales de la consulta médica en función del tipo de exploración",
+            "Tramita citas aplicando criterios de prioridad del servicio sanitario",
+            "Gestiona la documentación sanitaria manejando los sistemas de archivo y clasificación"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado los diferentes tipos de servicios sanitarios",
+            "Se han descrito las características de la documentación clínica",
+            "Se han aplicado técnicas de archivo y clasificación de la documentación",
+            "Se han utilizado aplicaciones informáticas de gestión de citas"
+          ]
+        },
+        "Técnicas básicas de enfermería": {
+          "codigo": "0021",
+          "horas": 230,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de aseo e higiene corporal relacionándolas con las necesidades y el estado del usuario",
+            "Aplica técnicas de movilización, traslado y deambulación relacionándolas con las necesidades del usuario",
+            "Realiza técnicas de alimentación enteral relacionándolas con las necesidades del usuario",
+            "Realiza cuidados postmortem aplicando protocolos del servicio"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado las medidas de protección individual",
+            "Se han identificado las necesidades de aseo e higiene corporal del usuario",
+            "Se han aplicado técnicas de aseo e higiene corporal adaptadas al estado del usuario",
+            "Se han aplicado técnicas de movilización respetando la mecánica corporal"
+          ]
+        },
+        "Higiene del medio hospitalario y limpieza del material": {
+          "codigo": "0022",
+          "horas": 130,
+          "resultados_aprendizaje": [
+            "Limpia el material sanitario describiendo los métodos de limpieza y desinfección",
+            "Desinfecta el material sanitario relacionando los métodos de desinfección con el tipo de material",
+            "Esteriliza el material sanitario relacionando los distintos métodos con el tipo de material",
+            "Realiza la limpieza y desinfección de equipos e instrumental relacionándola con el tipo de equipamiento"
+          ],
+          "criterios_evaluacion": [
+            "Se han clasificado los diferentes tipos de material sanitario",
+            "Se han identificado los riesgos derivados de la manipulación del material",
+            "Se han aplicado las técnicas de limpieza apropiadas",
+            "Se han seleccionado los métodos de desinfección apropiados"
+          ]
+        },
+        "Promoción de la salud y apoyo psicológico al paciente": {
+          "codigo": "0023",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Fomenta la participación del usuario y familia en el mantenimiento y mejora de su estado de salud",
+            "Aplica técnicas de comunicación y apoyo psicológico adaptadas al usuario",
+            "Aplica técnicas de educación sanitaria relacionándolas con el tipo de programa",
+            "Detecta situaciones de maltrato describiendo los indicadores más frecuentes"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado las características de las diferentes etapas vitales",
+            "Se han aplicado técnicas de comunicación apropiadas a cada situación",
+            "Se han identificado factores de riesgo para la salud",
+            "Se han reconocido los signos de maltrato físico y psíquico"
+          ]
+        },
+        "Técnicas de ayuda odontológica/estomatológica": {
+          "codigo": "0024",
+          "horas": 130,
+          "resultados_aprendizaje": [
+            "Prepara el gabinete bucodental aplicando medidas de prevención y seguridad",
+            "Prepara los equipos e instrumental para los distintos procedimientos",
+            "Auxilia en procedimientos odontológicos aplicando las medidas de seguridad e higiene",
+            "Realiza el revelado manual de radiografías intraorales aplicando las medidas de radioprotección"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado las medidas de protección individual",
+            "Se ha preparado el gabinete bucodental para la asistencia",
+            "Se han identificado los diferentes instrumentos de exploración",
+            "Se han aplicado las normas de radioprotección"
+          ]
+        },
+        "Itinerario personal para la empleabilidad I": {
+          "codigo": "1708",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Define itinerarios formativos relacionados con el título",
+            "Planifica la carrera profesional",
+            "Desarrolla habilidades de búsqueda de empleo",
+            "Aplica técnicas de prevención de riesgos laborales"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado los principales yacimientos de empleo",
+            "Se han aplicado técnicas de búsqueda de empleo",
+            "Se han identificado los riesgos laborales del sector",
+            "Se han aplicado medidas de prevención de riesgos"
+          ]
+        },
+        "Itinerario personal para la empleabilidad II": {
+          "codigo": "1709",
+          "horas": 63,
+          "resultados_aprendizaje": [
+            "Desarrolla proyecto profesional",
+            "Aplica habilidades emprendedoras",
+            "Planifica la creación de una empresa",
+            "Gestiona trámites administrativos"
+          ],
+          "criterios_evaluacion": [
+            "Se ha desarrollado un plan de empresa",
+            "Se han identificado las formas jurídicas",
+            "Se han calculado costes de puesta en marcha",
+            "Se han aplicado técnicas de marketing"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 370,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en entorno real",
+            "Aplica técnicas aprendidas en el centro educativo",
+            "Desarrolla actitudes profesionales",
+            "Integra conocimientos teóricos y prácticos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado las medidas de protección individual",
+            "Se han realizado las tareas con orden y limpieza",
+            "Se han aplicado las normas de seguridad e higiene",
+            "Se ha mantenido una actitud profesional"
+          ]
+        }
+      }
+    },
+    "Farmacia y Parafarmacia": {
+      "codigo": "SAN202",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Dispensación de productos farmacéuticos": {
+          "codigo": "0031",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Interpreta la información técnica de productos farmacéuticos relacionándola con las propiedades de los medicamentos",
+            "Dispensa medicamentos interpretando la prescripción médica o demanda del usuario",
+            "Informa al usuario sobre el medicamento dispensado proporcionando las pautas para su correcta utilización",
+            "Gestiona existencias de medicamentos aplicando criterios de control de almacén"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado las formas farmacéuticas sólidas, líquidas y gaseosas",
+            "Se han interpretado las prescripciones médicas",
+            "Se ha informado al usuario sobre la posología del medicamento",
+            "Se han aplicado las normas de dispensación de medicamentos"
+          ]
+        },
+        "Dispensación de productos parafarmacéuticos": {
+          "codigo": "0032",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Dispensa productos parafarmacéuticos interpretando las necesidades del usuario",
+            "Informa sobre productos de dermofarmacia y cosmética relacionando sus propiedades con las necesidades del usuario",
+            "Vende productos relacionados con la salud aplicando técnicas de venta y atención farmacéutica",
+            "Asesora sobre fitoterapia y productos de homeopatía"
+          ],
+          "criterios_evaluacion": [
+            "Se han clasificado los productos parafarmacéuticos",
+            "Se han identificado las características de la piel",
+            "Se han aplicado técnicas de venta y comunicación",
+            "Se ha informado sobre el uso correcto de los productos"
+          ]
+        },
+        "Oficina de farmacia": {
+          "codigo": "0033",
+          "horas": 160,
+          "resultados_aprendizaje": [
+            "Organiza el área de trabajo aplicando protocolos de oficina de farmacia",
+            "Gestiona documentación sanitaria de la oficina de farmacia",
+            "Tramita recetas electrónicas y gestiones con el sistema nacional de salud",
+            "Aplica normativa de medicamentos y productos sanitarios"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de archivo de documentación",
+            "Se han gestionado recetas electrónicas",
+            "Se ha aplicado la normativa de estupefacientes",
+            "Se han realizado pedidos y control de stock"
+          ]
+        },
+        "Promoción de la salud": {
+          "codigo": "0034",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Diseña programas de promoción y educación para la salud",
+            "Aplica técnicas de información sanitaria relacionándolas con los programas de salud",
+            "Colabora en campañas de educación sanitaria",
+            "Asesora sobre hábitos de vida saludable"
+          ],
+          "criterios_evaluacion": [
+            "Se han diseñado actividades de promoción de la salud",
+            "Se han aplicado técnicas de comunicación",
+            "Se han identificado factores de riesgo para la salud",
+            "Se ha informado sobre hábitos saludables"
+          ]
+        },
+        "Formulación magistral": {
+          "codigo": "0035",
+          "horas": 140,
+          "resultados_aprendizaje": [
+            "Elabora fórmulas magistrales y preparados oficinales aplicando protocolos",
+            "Controla la calidad de las elaboraciones farmacéuticas",
+            "Aplica cálculos farmacéuticos en formulación magistral",
+            "Gestiona residuos farmacéuticos aplicando normativa ambiental"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado cálculos farmacéuticos correctamente",
+            "Se han elaborado diferentes formas farmacéuticas",
+            "Se han aplicado controles de calidad",
+            "Se ha cumplido la normativa de buenas prácticas"
+          ]
+        },
+        "Operaciones básicas de laboratorio": {
+          "codigo": "0036",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Maneja material, equipo y reactivos de laboratorio aplicando normas de seguridad",
+            "Realiza análisis fisicoquímicos básicos aplicando protocolos establecidos",
+            "Aplica técnicas de control de calidad en análisis farmacéuticos",
+            "Realiza análisis microbiológicos básicos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado medidas de seguridad en el laboratorio",
+            "Se han realizado análisis fisicoquímicos básicos",
+            "Se han manejado equipos de laboratorio",
+            "Se han interpretado resultados analíticos"
+          ]
+        },
+        "Itinerario personal para la empleabilidad I": {
+          "codigo": "1708",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Define itinerarios formativos relacionados con el título de Farmacia y Parafarmacia",
+            "Planifica la carrera profesional en el ámbito farmacéutico",
+            "Desarrolla habilidades de búsqueda de empleo",
+            "Aplica técnicas de prevención de riesgos laborales en farmacia"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales del sector farmacéutico",
+            "Se han aplicado técnicas de búsqueda de empleo",
+            "Se han identificado riesgos laborales específicos",
+            "Se han aplicado medidas de prevención"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 370,
+          "resultados_aprendizaje": [
+            "Realiza prácticas profesionales en farmacias u otros establecimientos",
+            "Aplica conocimientos en entorno real de trabajo",
+            "Desarrolla competencias profesionales del sector",
+            "Integra aprendizajes del ciclo formativo"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de farmacia",
+            "Se ha mantenido actitud profesional",
+            "Se han respetado normas de confidencialidad",
+            "Se ha trabajado en equipo eficazmente"
+          ]
+        }
+      }
+    },
+    "Emergencias Sanitarias": {
+      "codigo": "SAN203",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Mantenimiento mecánico preventivo del vehículo": {
+          "codigo": "0052",
+          "horas": 96,
+          "resultados_aprendizaje": [
+            "Realiza operaciones de mantenimiento básico del motor y sistemas auxiliares",
+            "Realiza operaciones de mantenimiento básico en sistemas de transmisión de fuerza y trenes de rodaje",
+            "Ejecuta mantenimiento de sistemas de seguridad y confort del vehículo sanitario"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado elementos del vehículo sanitario",
+            "Se han realizado operaciones de mantenimiento preventivo",
+            "Se han verificado circuitos de refrigeración y lubricación",
+            "Se ha realizado sustitución de filtros y elementos básicos"
+          ]
+        },
+        "Logística sanitaria en emergencias": {
+          "codigo": "0053",
+          "horas": 128,
+          "resultados_aprendizaje": [
+            "Propone despliegues organizativos sanitarios en situaciones de emergencia",
+            "Aplica procedimientos de balizamiento y señalización en zonas de actuación",
+            "Gestiona recursos en catástrofes y emergencias múltiples",
+            "Organiza la atención sanitaria en situaciones de emergencia colectiva"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado sistemas de protección civil",
+            "Se ha sectorizado correctamente la zona de actuación",
+            "Se han aplicado planes logísticos en catástrofes",
+            "Se han identificado situaciones de riesgo para el equipo"
+          ]
+        },
+        "Dotación sanitaria": {
+          "codigo": "0054",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Realiza el mantenimiento básico de la dotación sanitaria del vehículo",
+            "Verifica funcionalidad de equipos sanitarios y de autoprotección",
+            "Clasifica dotación material según nivel asistencial del vehículo",
+            "Controla stock de material sanitario aplicando criterios de reposición"
+          ],
+          "criterios_evaluacion": [
+            "Se ha controlado el stock de productos e instrumental",
+            "Se han realizado operaciones de mantenimiento de equipos",
+            "Se han aplicado técnicas de desinfección del vehículo",
+            "Se ha verificado la existencia de medicamentos"
+          ]
+        },
+        "Atención sanitaria inicial en situaciones de emergencia": {
+          "codigo": "0055",
+          "horas": 192,
+          "resultados_aprendizaje": [
+            "Reconoce los signos de compromiso vital relacionándolos con el estado del paciente",
+            "Aplica técnicas de soporte vital básico (SVB) describiéndolas y relacionándolas con el objetivo",
+            "Aplica criterios de clasificación de víctimas (triaje) relacionando recursos con gravedad",
+            "Identifica principales lesiones según tipo de catástrofe o emergencia"
+          ],
+          "criterios_evaluacion": [
+            "Se han verificado la permeabilidad de la vía aérea",
+            "Se han aplicado técnicas de SVB según protocolo ILCOR",
+            "Se han aplicado métodos de triaje simple",
+            "Se han aplicado técnicas de control de hemorragias"
+          ]
+        },
+        "Atención sanitaria especial en situaciones de emergencia": {
+          "codigo": "0056",
+          "horas": 210,
+          "resultados_aprendizaje": [
+            "Realiza operaciones de apoyo al equipo de salud en soporte vital avanzado (SVA)",
+            "Aplica técnicas de soporte vital avanzado bajo supervisión médica",
+            "Administra medicamentos de emergencia bajo supervisión facultativa",
+            "Presta soporte vital avanzado en pediatría según protocolos"
+          ],
+          "criterios_evaluacion": [
+            "Se ha apoyado al equipo de salud en SVA",
+            "Se ha administrado oxígeno medicinal correctamente",
+            "Se han utilizado equipos electromédicos adecuadamente",
+            "Se han aplicado técnicas de hemostasia avanzada"
+          ]
+        },
+        "Evacuación y traslado de pacientes": {
+          "codigo": "0057",
+          "horas": 175,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de movilización e inmovilización de pacientes según patología",
+            "Adecúa la conducción del vehículo a las condiciones del paciente transportado",
+            "Realiza traslado seguro al centro sanitario de referencia",
+            "Comunica información clínica al centro receptor según protocolos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de movilización segura",
+            "Se han utilizado dispositivos de transporte apropiados",
+            "Se ha conducido el vehículo de forma segura",
+            "Se ha comunicado con el centro receptor"
+          ]
+        },
+        "Apoyo psicológico en situaciones de emergencia": {
+          "codigo": "0058",
+          "horas": 64,
+          "resultados_aprendizaje": [
+            "Reconoce disfunciones del comportamiento en situaciones de emergencia",
+            "Aplica técnicas de apoyo psicológico en situaciones de emergencia y crisis",
+            "Identifica reacciones emocionales desajustadas de víctimas y familiares",
+            "Aplica técnicas de autocontrol ante situaciones de estrés"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado reacciones emocionales en emergencias",
+            "Se han aplicado técnicas de comunicación terapéutica",
+            "Se han aplicado habilidades de negociación y empatía",
+            "Se ha proporcionado apoyo emocional a víctimas"
+          ]
+        },
+        "Planes de emergencias y dispositivos de riesgos previsibles": {
+          "codigo": "0059",
+          "horas": 63,
+          "resultados_aprendizaje": [
+            "Colabora en preparación y ejecución de planes de emergencias",
+            "Organiza dispositivos de riesgo previsible según tipo de evento",
+            "Analiza protocolos de actuación ante catástrofes",
+            "Coordina actuación con otros servicios de emergencia"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado planes de emergencia y autoprotección",
+            "Se han organizado dispositivos de riesgo previsible",
+            "Se ha coordinado con otros servicios",
+            "Se han aplicado protocolos ante emergencias colectivas"
+          ]
+        },
+        "Teleemergencias": {
+          "codigo": "0060",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Controla la consola de radiocomunicaciones aplicando protocolos",
+            "Aplica técnicas de recepción de mensajes orales y gestión de demandas",
+            "Gestiona demanda de emergencias sanitarias y no sanitarias",
+            "Coordina recursos de emergencias desde centro coordinador"
+          ],
+          "criterios_evaluacion": [
+            "Se ha controlado la consola de radiocomunicaciones",
+            "Se han aplicado técnicas de interrogatorio telefónico",
+            "Se han interpretado sistemas cartográficos",
+            "Se han aplicado protocolos de asistencia"
+          ]
+        },
+        "Anatomofisiología y patología básicas": {
+          "codigo": "0061",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Reconoce la estructura y organización del organismo humano",
+            "Identifica los sistemas corporales y sus funciones principales",
+            "Relaciona patologías con alteraciones anatómicas y fisiológicas",
+            "Aplica terminología médica básica en documentación sanitaria"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado estructuras anatómicas básicas",
+            "Se ha descrito el funcionamiento de sistemas corporales",
+            "Se han relacionado patologías con alteraciones orgánicas",
+            "Se ha utilizado terminología médica correctamente"
+          ]
+        },
+        "Digitalización aplicada al sector productivo": {
+          "codigo": "1664",
+          "horas": 33,
+          "resultados_aprendizaje": [
+            "Aplica herramientas digitales en el ámbito de emergencias sanitarias",
+            "Utiliza tecnologías de la información en gestión de emergencias",
+            "Maneja aplicaciones informáticas del sector sanitario"
+          ],
+          "criterios_evaluacion": [
+            "Se han utilizado herramientas digitales específicas",
+            "Se han aplicado medidas de ciberseguridad",
+            "Se ha gestionado información digital sanitaria"
+          ]
+        },
+        "Itinerario personal para la empleabilidad I": {
+          "codigo": "1708",
+          "horas": 96,
+          "resultados_aprendizaje": [
+            "Define itinerarios formativos relacionados con emergencias sanitarias",
+            "Planifica la carrera profesional en el sector de urgencias",
+            "Desarrolla habilidades de búsqueda de empleo en servicios de emergencias",
+            "Aplica técnicas de prevención de riesgos laborales específicos"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado oportunidades de empleo en el sector",
+            "Se han aplicado técnicas de búsqueda activa de empleo",
+            "Se han identificado riesgos laborales del sector emergencias",
+            "Se han aplicado medidas de prevención de riesgos"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en servicios de emergencias y transporte sanitario",
+            "Aplica competencias profesionales en entorno real",
+            "Integra conocimientos en situaciones reales de emergencia",
+            "Desarrolla actitudes profesionales del sector emergencias"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de emergencias",
+            "Se ha trabajado en equipo con profesionales",
+            "Se ha mantenido actitud profesional en situaciones críticas",
+            "Se han respetado normas de confidencialidad"
+          ]
+        }
+      }
+    }
+  },
+  "grado_superior": {
+    "Anatomía Patológica y Citodiagnóstico": {
+      "codigo": "SAN301",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Gestión de muestras biológicas": {
+          "codigo": "0191",
+          "horas": 160,
+          "resultados_aprendizaje": [
+            "Organiza el área de trabajo preparando materiales y equipos",
+            "Obtiene muestras biológicas aplicando técnicas de extracción",
+            "Distribuye muestras biológicas aplicando criterios de clasificación",
+            "Aplica protocolos de seguridad biológica en el manejo de muestras"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado normas de seguridad e higiene",
+            "Se han seleccionado materiales apropiados",
+            "Se han aplicado técnicas de extracción correctamente",
+            "Se han clasificado muestras según conservación"
+          ]
+        },
+        "Técnicas generales de laboratorio": {
+          "codigo": "0192",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Maneja material, equipo y reactivos de laboratorio aplicando normas",
+            "Realiza preparación de muestras biológicas para su análisis",
+            "Aplica técnicas de tinción histológica e inmunohistoquímica",
+            "Controla calidad en procedimientos de laboratorio"
+          ],
+          "criterios_evaluacion": [
+            "Se han preparado disoluciones y reactivos",
+            "Se han aplicado técnicas de tinción",
+            "Se ha manejado material de laboratorio",
+            "Se han aplicado controles de calidad"
+          ]
+        },
+        "Necropsias": {
+          "codigo": "0193",
+          "horas": 110,
+          "resultados_aprendizaje": [
+            "Prepara el área de necropsia aplicando protocolos de seguridad",
+            "Colabora en realización de necropsias clínicas y médico-legales",
+            "Obtiene muestras necrópsicas según indicaciones facultativas",
+            "Aplica técnicas de conservación de cadáveres"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado medidas de bioseguridad",
+            "Se ha preparado el área de trabajo",
+            "Se han obtenido muestras necrópsicas",
+            "Se han aplicado técnicas de conservación"
+          ]
+        },
+        "Procesamiento citológico y tisular": {
+          "codigo": "0194",
+          "horas": 231,
+          "resultados_aprendizaje": [
+            "Procesa muestras citológicas aplicando técnicas de extensión y fijación",
+            "Procesa muestras histológicas aplicando técnicas de inclusión y microtomía",
+            "Aplica técnicas de tinción citológica e histológica",
+            "Realiza técnicas de inmunocitoquímica e inmunohistoquímica"
+          ],
+          "criterios_evaluacion": [
+            "Se han procesado muestras citológicas",
+            "Se han realizado cortes histológicos",
+            "Se han aplicado tinciones específicas",
+            "Se han realizado técnicas de inmunomarcaje"
+          ]
+        },
+        "Citología ginecológica": {
+          "codigo": "0195",
+          "horas": 110,
+          "resultados_aprendizaje": [
+            "Procesa muestras de citología ginecológica aplicando técnicas específicas",
+            "Identifica células normales y patológicas en extensiones ginecológicas",
+            "Aplica sistemas de clasificación citológica en ginecología",
+            "Participa en programas de cribado de cáncer ginecológico"
+          ],
+          "criterios_evaluacion": [
+            "Se han procesado muestras ginecológicas",
+            "Se han identificado células escamosas y glandulares",
+            "Se ha aplicado la clasificación de Bethesda",
+            "Se han detectado alteraciones celulares"
+          ]
+        },
+        "Citología general": {
+          "codigo": "0196",
+          "horas": 110,
+          "resultados_aprendizaje": [
+            "Procesa muestras de citología no ginecológica",
+            "Identifica células normales y patológicas en diferentes órganos",
+            "Aplica técnicas especiales en citología",
+            "Colabora en diagnóstico citopatológico"
+          ],
+          "criterios_evaluacion": [
+            "Se han procesado citologías de diferentes órganos",
+            "Se han identificado células normales y anormales",
+            "Se han aplicado técnicas de PAAF",
+            "Se han aplicado tinciones especiales"
+          ]
+        },
+        "Fisiopatología general": {
+          "codigo": "0197",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Identifica alteraciones estructurales y funcionales de órganos y sistemas",
+            "Reconoce procesos patológicos generales del organismo",
+            "Relaciona síntomas con alteraciones anatomopatológicas",
+            "Aplica terminología anatomopatológica"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado procesos inflamatorios",
+            "Se han reconocido procesos neoplásicos",
+            "Se ha aplicado terminología médica",
+            "Se han relacionado alteraciones con patologías"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en laboratorios de anatomía patológica",
+            "Aplica técnicas de prevención de riesgos laborales específicos",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Determina acción protectora del sistema de Seguridad Social"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado oportunidades de empleo",
+            "Se han aplicado medidas de prevención de riesgos",
+            "Se han identificado derechos laborales",
+            "Se han tramitado prestaciones de Seguridad Social"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en laboratorios de anatomía patológica",
+            "Aplica competencias profesionales en entorno real",
+            "Integra conocimientos teóricos y prácticos",
+            "Desarrolla actitudes profesionales del sector"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de laboratorio",
+            "Se ha trabajado con autonomía responsable",
+            "Se ha mantenido actitud profesional",
+            "Se han respetado normas de confidencialidad"
+          ]
+        }
+      }
+    },
+    "Dietética": {
+      "codigo": "SAN302",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Organización y gestión del área de trabajo asignada en la unidad/gabinete de dietética": {
+          "codigo": "0017",
+          "horas": 95,
+          "resultados_aprendizaje": [
+            "Organiza el área de trabajo aplicando técnicas organizativas",
+            "Gestiona documentación sanitaria específica del servicio",
+            "Aplica protocolos de gestión de calidad en dietética",
+            "Coordina actividades del equipo de dietética"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de organización",
+            "Se ha gestionado documentación sanitaria",
+            "Se han aplicado protocolos de calidad",
+            "Se ha coordinado el trabajo en equipo"
+          ]
+        },
+        "Alimentación equilibrada": {
+          "codigo": "0018",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Determina ingestas equilibradas aplicando criterios nutricionales",
+            "Elabora dietas equilibradas para diferentes grupos de población",
+            "Valora el estado nutricional aplicando técnicas de evaluación",
+            "Aplica principios de la nutrición humana"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado fundamentos de nutrición",
+            "Se han calculado requerimientos nutricionales",
+            "Se han elaborado menús equilibrados",
+            "Se ha valorado el estado nutricional"
+          ]
+        },
+        "Dietoterapia": {
+          "codigo": "0019",
+          "horas": 190,
+          "resultados_aprendizaje": [
+            "Elabora dietas adaptadas a patologías aplicando conocimientos de dietoterapia",
+            "Determina dietas terapéuticas según prescripción médica",
+            "Adapta dietas a situaciones fisiológicas y patológicas especiales",
+            "Colabora con el equipo multidisciplinar en tratamiento dietético"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado dietas terapéuticas",
+            "Se han adaptado dietas a patologías",
+            "Se ha colaborado con el equipo sanitario",
+            "Se han aplicado modificaciones dietéticas"
+          ]
+        },
+        "Control alimentario": {
+          "codigo": "0028",
+          "horas": 95,
+          "resultados_aprendizaje": [
+            "Controla la calidad alimentaria aplicando técnicas de análisis",
+            "Evalúa la conservación de alimentos aplicando métodos de control",
+            "Aplica sistemas de análisis de peligros y puntos críticos (APPCC)",
+            "Controla procesos de elaboración de alimentos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de control de calidad",
+            "Se han evaluado métodos de conservación",
+            "Se ha implantado el sistema APPCC",
+            "Se han controlado procesos de elaboración"
+          ]
+        },
+        "Microbiología e higiene alimentaria": {
+          "codigo": "0029",
+          "horas": 110,
+          "resultados_aprendizaje": [
+            "Identifica microorganismos de interés alimentario",
+            "Aplica medidas de higiene en manipulación de alimentos",
+            "Detecta alteraciones y contaminaciones de alimentos",
+            "Previene toxiinfecciones alimentarias"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado microorganismos alimentarios",
+            "Se han aplicado medidas de higiene",
+            "Se han detectado contaminaciones",
+            "Se han prevenido toxiinfecciones"
+          ]
+        },
+        "Educación sanitaria y promoción para la salud": {
+          "codigo": "0030",
+          "horas": 75,
+          "resultados_aprendizaje": [
+            "Diseña programas de educación nutricional",
+            "Aplica técnicas de información sanitaria en nutrición",
+            "Promueve hábitos alimentarios saludables",
+            "Participa en campañas de educación para la salud"
+          ],
+          "criterios_evaluacion": [
+            "Se han diseñado programas educativos",
+            "Se han aplicado técnicas de comunicación",
+            "Se han promovido hábitos saludables",
+            "Se ha participado en campañas de salud"
+          ]
+        },
+        "Fisiopatología aplicada a la dietética": {
+          "codigo": "0037",
+          "horas": 95,
+          "resultados_aprendizaje": [
+            "Identifica procesos fisiopatológicos relacionados con la nutrición",
+            "Relaciona patologías con alteraciones nutricionales",
+            "Aplica conocimientos de fisiopatología en dietoterapia",
+            "Reconoce interacciones entre nutrientes y fármacos"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado procesos fisiopatológicos",
+            "Se han relacionado patologías con nutrición",
+            "Se ha aplicado fisiopatología en dietética",
+            "Se han reconocido interacciones fármaco-nutriente"
+          ]
+        },
+        "Relaciones en el entorno de trabajo": {
+          "codigo": "0038",
+          "horas": 55,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de comunicación en el entorno sanitario",
+            "Trabaja en equipo multidisciplinar eficazmente",
+            "Resuelve conflictos en el ámbito laboral",
+            "Aplica principios de ética profesional"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de comunicación",
+            "Se ha trabajado en equipo",
+            "Se han resuelto conflictos",
+            "Se han aplicado principios éticos"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 55,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en dietética y nutrición",
+            "Aplica técnicas de prevención de riesgos laborales",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona trámites administrativos laborales"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se han gestionado trámites laborales"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 440,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en servicios de dietética y nutrición",
+            "Aplica competencias profesionales en entorno real",
+            "Elabora dietas en contexto profesional",
+            "Desarrolla actitudes profesionales del dietista"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado dietas terapéuticas",
+            "Se ha trabajado con el equipo sanitario",
+            "Se ha mantenido actitud profesional",
+            "Se han aplicado protocolos del servicio"
+          ]
+        }
+      }
+    },
+    "Documentación y Administración Sanitarias": {
+      "codigo": "SAN303",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Gestión de pacientes": {
+          "codigo": "0645",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Organiza el área de recepción de pacientes aplicando técnicas de gestión",
+            "Tramita citas aplicando criterios de priorización sanitaria",
+            "Gestiona ingresos y altas hospitalarias según protocolos",
+            "Aplica sistemas informáticos de gestión de pacientes"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de recepción",
+            "Se han tramitado citas con criterios sanitarios",
+            "Se han gestionado ingresos y altas",
+            "Se han utilizado aplicaciones informáticas"
+          ]
+        },
+        "Terminología clínica y documentación sanitaria": {
+          "codigo": "0646",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Aplica terminología médica en documentación clínica",
+            "Gestiona historia clínica aplicando normativa vigente",
+            "Codifica diagnósticos y procedimientos según CIE",
+            "Tramita documentación clínica-administrativa"
+          ],
+          "criterios_evaluacion": [
+            "Se ha aplicado terminología médica",
+            "Se ha gestionado la historia clínica",
+            "Se han codificado diagnósticos (CIE-10)",
+            "Se ha tramitado documentación sanitaria"
+          ]
+        },
+        "Codificación de documentación sanitaria": {
+          "codigo": "0647",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Codifica patologías aplicando la Clasificación Internacional de Enfermedades (CIE)",
+            "Codifica procedimientos diagnósticos y terapéuticos",
+            "Aplica reglas de codificación en conjunto mínimo básico de datos (CMBD)",
+            "Elabora informes codificados de alta hospitalaria"
+          ],
+          "criterios_evaluacion": [
+            "Se han codificado diagnósticos correctamente",
+            "Se han codificado procedimientos",
+            "Se han aplicado reglas de codificación",
+            "Se han elaborado informes de alta"
+          ]
+        },
+        "Archivo y documentación sanitaria": {
+          "codigo": "0648",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Organiza archivos de documentación sanitaria aplicando sistemas de clasificación",
+            "Gestiona historia clínica electrónica según protocolos",
+            "Aplica normativa de protección de datos en documentación sanitaria",
+            "Realiza expurgo de documentación aplicando criterios legales"
+          ],
+          "criterios_evaluacion": [
+            "Se han organizado archivos sanitarios",
+            "Se ha gestionado historia clínica electrónica",
+            "Se ha aplicado normativa de protección de datos",
+            "Se ha realizado expurgo documental"
+          ]
+        },
+        "Sistemas de información y clasificación sanitaria": {
+          "codigo": "0649",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Maneja sistemas de información hospitalaria",
+            "Aplica clasificaciones sanitarias internacionales",
+            "Obtiene indicadores de salud a partir de datos codificados",
+            "Elabora informes estadísticos sanitarios"
+          ],
+          "criterios_evaluacion": [
+            "Se han manejado sistemas de información",
+            "Se han aplicado clasificaciones internacionales",
+            "Se han obtenido indicadores de salud",
+            "Se han elaborado informes estadísticos"
+          ]
+        },
+        "Atención telefónica sanitaria": {
+          "codigo": "0650",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de comunicación telefónica en el ámbito sanitario",
+            "Gestiona agenda y citas telefónicas según criterios sanitarios",
+            "Registra información de contactos telefónicos",
+            "Resuelve consultas administrativas telefónicas"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de atención telefónica",
+            "Se han gestionado citas telefónicas",
+            "Se ha registrado información correctamente",
+            "Se han resuelto consultas administrativas"
+          ]
+        },
+        "Ofimática aplicada": {
+          "codigo": "0651",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Elabora documentos sanitarios aplicando procesadores de texto",
+            "Gestiona bases de datos de pacientes respetando confidencialidad",
+            "Realiza presentaciones de información sanitaria",
+            "Aplica hojas de cálculo en gestión sanitaria"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado documentos clínicos",
+            "Se han gestionado bases de datos",
+            "Se han realizado presentaciones",
+            "Se han aplicado hojas de cálculo"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en documentación sanitaria",
+            "Aplica prevención de riesgos en entorno administrativo sanitario",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional en el sector sanitario"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en servicios de admisión y documentación clínica",
+            "Aplica competencias de codificación en entorno real",
+            "Gestiona historia clínica en contexto profesional",
+            "Desarrolla actitudes profesionales del documentalista sanitario"
+          ],
+          "criterios_evaluacion": [
+            "Se ha gestionado documentación sanitaria",
+            "Se han codificado diagnósticos y procedimientos",
+            "Se ha trabajado con sistemas informáticos",
+            "Se ha mantenido confidencialidad"
+          ]
+        }
+      }
+    },
+    "Higiene Bucodental": {
+      "codigo": "SAN304",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Recepción y logística en la clínica dental": {
+          "codigo": "0730",
+          "horas": 100,
+          "resultados_aprendizaje": [
+            "Organiza el área de recepción de la clínica dental",
+            "Gestiona citas y agenda del gabinete dental",
+            "Realiza pedidos y control de almacén de material dental",
+            "Tramita documentación clínica y administrativa dental"
+          ],
+          "criterios_evaluacion": [
+            "Se ha organizado el área de recepción",
+            "Se han gestionado citas",
+            "Se ha controlado el stock de material",
+            "Se ha tramitado documentación dental"
+          ]
+        },
+        "Estudio de la cavidad oral": {
+          "codigo": "0731",
+          "horas": 170,
+          "resultados_aprendizaje": [
+            "Identifica estructuras anatómicas de la cavidad oral",
+            "Reconoce tejidos dentales y periodontales",
+            "Relaciona anatomía con patologías bucodentales",
+            "Aplica terminología odontológica"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado estructuras orales",
+            "Se han reconocido tejidos dentales",
+            "Se han relacionado anatomía y patología",
+            "Se ha aplicado terminología odontológica"
+          ]
+        },
+        "Exploración de la cavidad oral": {
+          "codigo": "0732",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Realiza exploración bucodental básica aplicando técnicas",
+            "Detecta placa bacteriana aplicando métodos de revelado",
+            "Realiza sondaje periodontal según protocolos",
+            "Registra índices de salud oral en odontograma"
+          ],
+          "criterios_evaluacion": [
+            "Se ha realizado exploración bucodental",
+            "Se ha detectado placa bacteriana",
+            "Se ha realizado sondaje periodontal",
+            "Se han registrado índices de salud oral"
+          ]
+        },
+        "Intervención bucodental": {
+          "codigo": "0733",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Realiza técnicas de higiene bucodental profesional",
+            "Aplica tratamientos preventivos (sellados, fluoraciones)",
+            "Elimina cálculos dentales mediante tartrectomía",
+            "Pule restauraciones y obturaciones dentales"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado profilaxis dentales",
+            "Se han aplicado selladores de fosas y fisuras",
+            "Se han eliminado cálculos dentales",
+            "Se han pulido restauraciones"
+          ]
+        },
+        "Epidemiología en salud oral": {
+          "codigo": "0734",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Aplica métodos epidemiológicos en salud bucodental",
+            "Determina indicadores de salud oral en población",
+            "Participa en encuestas epidemiológicas bucodentales",
+            "Analiza datos de salud oral poblacional"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado métodos epidemiológicos",
+            "Se han determinado indicadores de salud oral",
+            "Se ha participado en encuestas",
+            "Se han analizado datos poblacionales"
+          ]
+        },
+        "Educación para la salud oral": {
+          "codigo": "0735",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Diseña programas de educación para la salud bucodental",
+            "Aplica técnicas de motivación en higiene oral",
+            "Asesora sobre hábitos saludables bucodentales",
+            "Participa en campañas de promoción de salud oral"
+          ],
+          "criterios_evaluacion": [
+            "Se han diseñado programas educativos",
+            "Se han aplicado técnicas de motivación",
+            "Se ha asesorado sobre higiene oral",
+            "Se ha participado en campañas de salud"
+          ]
+        },
+        "Conservadora, periodoncia, cirugía e implantes": {
+          "codigo": "0736",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Colabora en tratamientos de odontología conservadora",
+            "Asiste en tratamientos periodontales",
+            "Colabora en cirugía oral e implantología",
+            "Aplica medidas de asepsia en tratamientos odontológicos"
+          ],
+          "criterios_evaluacion": [
+            "Se ha colaborado en obturaciones",
+            "Se ha asistido en tratamientos periodontales",
+            "Se ha colaborado en cirugía oral",
+            "Se han aplicado medidas de asepsia"
+          ]
+        },
+        "Prótesis y ortodoncia": {
+          "codigo": "0737",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Colabora en tratamientos de prótesis dental",
+            "Asiste en tratamientos de ortodoncia",
+            "Realiza toma de impresiones dentales",
+            "Maneja materiales de prótesis y ortodoncia"
+          ],
+          "criterios_evaluacion": [
+            "Se ha colaborado en prótesis",
+            "Se ha asistido en ortodoncia",
+            "Se han tomado impresiones dentales",
+            "Se han manejado materiales dentales"
+          ]
+        },
+        "Primeros auxilios": {
+          "codigo": "0020",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de soporte vital básico en emergencias",
+            "Actúa ante situaciones de emergencia en clínica dental",
+            "Utiliza material y equipos de urgencias",
+            "Aplica protocolos de actuación en urgencias médicas"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de SVB",
+            "Se ha actuado ante emergencias",
+            "Se ha utilizado material de urgencias",
+            "Se han aplicado protocolos de actuación"
+          ]
+        },
+        "Fisiopatología general": {
+          "codigo": "0738",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Identifica procesos patológicos generales",
+            "Reconoce enfermedades sistémicas con repercusión oral",
+            "Relaciona patologías con manifestaciones orales",
+            "Aplica terminología médica general"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado procesos patológicos",
+            "Se han reconocido enfermedades sistémicas",
+            "Se han relacionado patologías con manifestaciones orales",
+            "Se ha aplicado terminología médica"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en higiene bucodental",
+            "Aplica prevención de riesgos en clínica dental",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional como higienista dental"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en clínicas dentales y servicios de salud bucodental",
+            "Aplica competencias profesionales del higienista dental",
+            "Realiza tratamientos preventivos en contexto real",
+            "Desarrolla actitudes profesionales del higienista"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado profilaxis dentales",
+            "Se han aplicado tratamientos preventivos",
+            "Se ha trabajado con el equipo odontológico",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Imagen para el Diagnóstico y Medicina Nuclear": {
+      "codigo": "SAN305",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Anatomía por la imagen": {
+          "codigo": "0041",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Identifica la anatomía humana interpretando las estructuras anatómicas y sus relaciones",
+            "Reconoce la anatomía sectorial del cuerpo humano relacionándola con las técnicas de imagen",
+            "Identifica las estructuras anatómicas en imágenes radiológicas convencionales",
+            "Reconoce variantes anatómicas normales en imágenes diagnósticas"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado las estructuras anatómicas básicas",
+            "Se han reconocido las variantes anatómicas más frecuentes",
+            "Se han interpretado las imágenes radiológicas convencionales",
+            "Se han utilizado atlas anatómicos y de imagen"
+          ]
+        },
+        "Física de las radiaciones": {
+          "codigo": "0042",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Caracteriza las radiaciones ionizantes describiendo los tipos y sus propiedades",
+            "Determina las magnitudes radiológicas relacionándolas con las unidades de medida",
+            "Aplica los fundamentos de la radioprotección relacionándolos con los efectos de las radiaciones",
+            "Calcula dosis de radiación aplicando fórmulas y tablas"
+          ],
+          "criterios_evaluacion": [
+            "Se han clasificado los tipos de radiaciones ionizantes",
+            "Se han calculado las magnitudes radiológicas",
+            "Se han aplicado los principios de radioprotección",
+            "Se han identificado los efectos biológicos de las radiaciones"
+          ]
+        },
+        "Técnicas de radiología simple": {
+          "codigo": "0043",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Aplica protocolos de obtención de radiografías simples",
+            "Posiciona al paciente según la exploración radiológica a realizar",
+            "Obtiene imágenes radiológicas de calidad diagnóstica",
+            "Aplica medidas de radioprotección en radiología convencional"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de radiología simple",
+            "Se ha posicionado correctamente al paciente",
+            "Se han obtenido radiografías de calidad diagnóstica",
+            "Se han aplicado medidas de radioprotección"
+          ]
+        },
+        "Técnicas de radiología especial": {
+          "codigo": "0044",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica protocolos de exploraciones radiológicas con contraste",
+            "Prepara medios de contraste según tipo de exploración",
+            "Colabora en exploraciones radiológicas intervencionistas",
+            "Obtiene imágenes radiológicas especiales de calidad diagnóstica"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de radiología especial",
+            "Se han preparado medios de contraste",
+            "Se ha colaborado en radiología intervencionista",
+            "Se han obtenido imágenes de calidad"
+          ]
+        },
+        "Técnicas de tomografía computarizada y ecografía": {
+          "codigo": "0045",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Aplica protocolos de exploraciones mediante tomografía computarizada (TC)",
+            "Obtiene imágenes mediante TC de diferentes regiones anatómicas",
+            "Colabora en exploraciones ecográficas",
+            "Aplica medidas de radioprotección en TC"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de TC",
+            "Se han obtenido imágenes tomográficas de calidad",
+            "Se ha colaborado en ecografías",
+            "Se han aplicado medidas de radioprotección"
+          ]
+        },
+        "Técnicas de imagen por resonancia magnética": {
+          "codigo": "0046",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica protocolos de exploraciones mediante resonancia magnética (RM)",
+            "Obtiene imágenes mediante RM de diferentes regiones anatómicas",
+            "Aplica medidas de seguridad en exploraciones de RM",
+            "Identifica contraindicaciones para exploraciones de RM"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de RM",
+            "Se han obtenido imágenes de resonancia de calidad",
+            "Se han aplicado medidas de seguridad",
+            "Se han identificado contraindicaciones"
+          ]
+        },
+        "Técnicas de imagen en medicina nuclear": {
+          "codigo": "0047",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica protocolos de exploraciones gammagráficas",
+            "Obtiene imágenes gammagráficas de calidad diagnóstica",
+            "Maneja radiofármacos aplicando medidas de radioprotección",
+            "Colabora en tratamientos de radioterapia metabólica"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado protocolos de gammagrafía",
+            "Se han obtenido gammagrafías de calidad",
+            "Se han manejado radiofármacos con seguridad",
+            "Se ha colaborado en radioterapia metabólica"
+          ]
+        },
+        "Protección y seguridad radiológica": {
+          "codigo": "0048",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Aplica normativa de protección radiológica en instalaciones",
+            "Utiliza dosímetros personales y sistemas de medida de radiación",
+            "Aplica protocolos de radioprotección de pacientes y trabajadores",
+            "Gestiona residuos radiactivos según normativa"
+          ],
+          "criterios_evaluacion": [
+            "Se ha aplicado normativa de radioprotección",
+            "Se han utilizado dosímetros correctamente",
+            "Se han aplicado protocolos de protección",
+            "Se han gestionado residuos radiactivos"
+          ]
+        },
+        "Atención al paciente": {
+          "codigo": "0049",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de comunicación con pacientes en pruebas de imagen",
+            "Informa al paciente sobre la exploración a realizar",
+            "Atiende necesidades del paciente durante exploraciones",
+            "Aplica técnicas de asepsia en contacto con pacientes"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de comunicación",
+            "Se ha informado al paciente adecuadamente",
+            "Se han atendido necesidades del paciente",
+            "Se han aplicado técnicas de asepsia"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en servicios de radiodiagnóstico",
+            "Aplica prevención de riesgos laborales en radiología",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional en imagen diagnóstica"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas de prevención de riesgos",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en servicios de radiodiagnóstico y medicina nuclear",
+            "Aplica competencias profesionales en imagen diagnóstica",
+            "Obtiene imágenes en contexto profesional real",
+            "Desarrolla actitudes profesionales del técnico en imagen"
+          ],
+          "criterios_evaluacion": [
+            "Se han obtenido imágenes radiológicas",
+            "Se han aplicado protocolos del servicio",
+            "Se ha trabajado con el equipo multidisciplinar",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Laboratorio Clínico y Biomédico": {
+      "codigo": "SAN306",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Gestión de muestras biológicas": {
+          "codigo": "0199",
+          "horas": 125,
+          "resultados_aprendizaje": [
+            "Organiza el área de trabajo preparando materiales y equipos para la toma de muestras",
+            "Obtiene muestras biológicas aplicando las técnicas de extracción según protocolos",
+            "Distribuye muestras biológicas aplicando criterios de clasificación según su análisis posterior",
+            "Aplica protocolos de seguridad biológica en el manejo de muestras"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado las normas de seguridad e higiene",
+            "Se han seleccionado los materiales y equipos apropiados",
+            "Se han aplicado las técnicas de extracción sanguínea",
+            "Se han clasificado las muestras según su conservación"
+          ]
+        },
+        "Técnicas generales de laboratorio": {
+          "codigo": "0200",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Maneja material, equipos y reactivos de laboratorio aplicando normas de seguridad",
+            "Prepara disoluciones y diluciones aplicando fórmulas y cálculos",
+            "Realiza análisis fisicoquímicos básicos aplicando protocolos",
+            "Aplica técnicas de control de calidad en procedimientos analíticos"
+          ],
+          "criterios_evaluacion": [
+            "Se han manejado materiales de laboratorio",
+            "Se han preparado disoluciones correctamente",
+            "Se han realizado análisis fisicoquímicos",
+            "Se han aplicado controles de calidad"
+          ]
+        },
+        "Biología molecular y citogenética": {
+          "codigo": "0201",
+          "horas": 105,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de extracción de ácidos nucleicos",
+            "Realiza técnicas de amplificación de ADN (PCR)",
+            "Aplica técnicas de análisis citogenético",
+            "Interpreta resultados de análisis genéticos"
+          ],
+          "criterios_evaluacion": [
+            "Se han extraído ácidos nucleicos",
+            "Se han realizado técnicas de PCR",
+            "Se han aplicado técnicas citogenéticas",
+            "Se han interpretado cariotipos"
+          ]
+        },
+        "Fisiopatología general": {
+          "codigo": "0202",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Identifica alteraciones estructurales y funcionales de órganos y sistemas",
+            "Reconoce procesos patológicos generales",
+            "Relaciona parámetros analíticos con patologías",
+            "Aplica terminología médica en informes de laboratorio"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado procesos fisiopatológicos",
+            "Se han reconocido alteraciones analíticas",
+            "Se han relacionado parámetros con patologías",
+            "Se ha aplicado terminología médica"
+          ]
+        },
+        "Análisis bioquímico": {
+          "codigo": "0203",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Realiza determinaciones bioquímicas en muestras biológicas",
+            "Aplica técnicas de análisis enzimático",
+            "Determina parámetros de metabolismo (glucosa, lípidos, proteínas)",
+            "Realiza análisis hormonales aplicando técnicas inmunológicas"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado análisis bioquímicos",
+            "Se han determinado enzimas",
+            "Se han analizado parámetros metabólicos",
+            "Se han realizado análisis hormonales"
+          ]
+        },
+        "Técnicas de inmunodiagnóstico": {
+          "codigo": "0204",
+          "horas": 125,
+          "resultados_aprendizaje": [
+            "Aplica técnicas inmunológicas de diagnóstico",
+            "Realiza determinaciones serológicas",
+            "Aplica técnicas de inmunoensayo (ELISA, RIA)",
+            "Identifica marcadores tumorales e inmunológicos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas inmunológicas",
+            "Se han realizado serologías",
+            "Se han aplicado técnicas de inmunoensayo",
+            "Se han identificado marcadores"
+          ]
+        },
+        "Microbiología clínica": {
+          "codigo": "0205",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Realiza cultivos microbiológicos de muestras clínicas",
+            "Aplica técnicas de identificación de microorganismos",
+            "Realiza antibiogramas aplicando métodos estandarizados",
+            "Identifica parásitos en muestras biológicas"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado cultivos microbiológicos",
+            "Se han identificado microorganismos",
+            "Se han realizado antibiogramas",
+            "Se han identificado parásitos"
+          ]
+        },
+        "Técnicas de análisis hematológico": {
+          "codigo": "0206",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Realiza recuentos celulares hematológicos",
+            "Elabora extensiones sanguíneas y las tiñe",
+            "Realiza estudios de coagulación sanguínea",
+            "Identifica alteraciones hematológicas en extensiones"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado hemogramas completos",
+            "Se han elaborado y teñido extensiones",
+            "Se han realizado pruebas de coagulación",
+            "Se han identificado alteraciones hematológicas"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en laboratorios clínicos",
+            "Aplica prevención de riesgos laborales en laboratorio",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional como técnico de laboratorio"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas de prevención biológica",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en laboratorios clínicos y biomédicos",
+            "Aplica competencias profesionales en análisis clínicos",
+            "Realiza determinaciones analíticas en contexto real",
+            "Desarrolla actitudes profesionales del técnico de laboratorio"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado análisis clínicos",
+            "Se han aplicado protocolos del laboratorio",
+            "Se ha trabajado con el equipo del laboratorio",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Ortoprótesis y Productos de Apoyo": {
+      "codigo": "SAN307",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Tecnología industrial aplicada a la actividad ortoprotésica": {
+          "codigo": "0652",
+          "horas": 160,
+          "resultados_aprendizaje": [
+            "Aplica fundamentos de tecnología mecánica en ortoprótesis",
+            "Selecciona materiales para productos ortoprotésicos",
+            "Realiza operaciones de mecanizado en fabricación ortésica",
+            "Aplica tecnologías de conformado de materiales"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado fundamentos de mecánica",
+            "Se han seleccionado materiales apropiados",
+            "Se han realizado operaciones de mecanizado",
+            "Se han conformado materiales ortésicos"
+          ]
+        },
+        "Diseño y moldeado anatómico": {
+          "codigo": "0653",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Diseña productos ortoprotésicos según prescripción facultativa",
+            "Realiza toma de medidas y moldes anatómicos",
+            "Elabora modelos positivos a partir de moldes negativos",
+            "Aplica técnicas de digitalización 3D en diseño ortoprotésico"
+          ],
+          "criterios_evaluacion": [
+            "Se han diseñado productos ortoprotésicos",
+            "Se han tomado medidas y moldes",
+            "Se han elaborado modelos positivos",
+            "Se han aplicado tecnologías de digitalización 3D"
+          ]
+        },
+        "Adaptación de ortesis prefabricadas": {
+          "codigo": "0654",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Selecciona ortesis prefabricadas según prescripción",
+            "Adapta ortesis prefabricadas a características del usuario",
+            "Instruye al usuario sobre uso y mantenimiento de ortesis",
+            "Realiza seguimiento de uso de ortesis prefabricadas"
+          ],
+          "criterios_evaluacion": [
+            "Se han seleccionado ortesis apropiadas",
+            "Se han adaptado ortesis al usuario",
+            "Se ha instruido sobre uso y mantenimiento",
+            "Se ha realizado seguimiento de uso"
+          ]
+        },
+        "Elaboración y adaptación de productos ortésicos a medida": {
+          "codigo": "0655",
+          "horas": 231,
+          "resultados_aprendizaje": [
+            "Elabora ortesis a medida de miembro superior",
+            "Elabora ortesis a medida de miembro inferior",
+            "Elabora ortesis de tronco (corsés ortopédicos)",
+            "Adapta productos ortésicos al usuario realizando ajustes"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado ortesis de miembro superior",
+            "Se han elaborado ortesis de miembro inferior",
+            "Se han elaborado corsés",
+            "Se han adaptado ortesis al usuario"
+          ]
+        },
+        "Elaboración y adaptación de prótesis externas": {
+          "codigo": "0656",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Elabora prótesis de miembro superior",
+            "Elabora prótesis de miembro inferior",
+            "Adapta prótesis al usuario realizando alineaciones",
+            "Instruye al usuario sobre uso de prótesis"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado prótesis de miembro superior",
+            "Se han elaborado prótesis de miembro inferior",
+            "Se han alineado prótesis correctamente",
+            "Se ha instruido sobre uso de prótesis"
+          ]
+        },
+        "Elaboración de productos de apoyo a medida": {
+          "codigo": "0657",
+          "horas": 125,
+          "resultados_aprendizaje": [
+            "Elabora ayudas técnicas para la marcha y sedestación",
+            "Elabora productos de apoyo para actividades de la vida diaria",
+            "Adapta productos de apoyo a necesidades del usuario",
+            "Realiza modificaciones de productos de apoyo comerciales"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado ayudas para la marcha",
+            "Se han elaborado productos de apoyo",
+            "Se han adaptado productos a necesidades",
+            "Se han modificado productos comerciales"
+          ]
+        },
+        "Fisiopatología aplicada a la ortoprótesis": {
+          "codigo": "0658",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Identifica patologías del sistema musculoesquelético",
+            "Reconoce alteraciones funcionales que requieren ortoprótesis",
+            "Relaciona prescripciones con patologías",
+            "Aplica biomecánica en diseño de productos ortoprotésicos"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado patologías osteoarticulares",
+            "Se han reconocido alteraciones funcionales",
+            "Se han relacionado prescripciones con patologías",
+            "Se ha aplicado biomecánica en diseño"
+          ]
+        },
+        "Administración y gestión de unidad ortoprotésica": {
+          "codigo": "0659",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Gestiona aprovisionamiento de materiales ortoprotésicos",
+            "Tramita autorizaciones y financiación de productos",
+            "Gestiona documentación técnica y administrativa",
+            "Organiza el taller ortoprotésico"
+          ],
+          "criterios_evaluacion": [
+            "Se ha gestionado aprovisionamiento",
+            "Se han tramitado autorizaciones",
+            "Se ha gestionado documentación",
+            "Se ha organizado el taller"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en ortoprótesis",
+            "Aplica prevención de riesgos en taller ortoprotésico",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional como técnico ortopédico"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en talleres y establecimientos ortoprotésicos",
+            "Aplica competencias en elaboración de productos ortoprotésicos",
+            "Adapta productos ortoprotésicos en contexto real",
+            "Desarrolla actitudes profesionales del técnico ortopédico"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado productos ortoprotésicos",
+            "Se han adaptado productos a usuarios",
+            "Se ha trabajado con el equipo del taller",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Audiología Protésica": {
+      "codigo": "SAN308",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Tecnología electrónica en audioprótesis": {
+          "codigo": "0660",
+          "horas": 160,
+          "resultados_aprendizaje": [
+            "Identifica componentes electrónicos de audioprótesis",
+            "Maneja equipos de medida electrónica",
+            "Realiza operaciones de mantenimiento de prótesis auditivas",
+            "Aplica tecnología digital en audioprótesis"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado componentes electrónicos",
+            "Se han manejado equipos de medida",
+            "Se han realizado operaciones de mantenimiento",
+            "Se ha aplicado tecnología digital"
+          ]
+        },
+        "Acústica y elementos de protección sonora": {
+          "codigo": "0661",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica fundamentos de acústica en audioprótesis",
+            "Realiza mediciones acústicas en diferentes entornos",
+            "Adapta protectores auditivos según nivel de ruido",
+            "Asesora sobre protección auditiva en ambientes ruidosos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado fundamentos acústicos",
+            "Se han realizado mediciones acústicas",
+            "Se han adaptado protectores auditivos",
+            "Se ha asesorado sobre protección auditiva"
+          ]
+        },
+        "Características anatomosensoriales auditivas": {
+          "codigo": "0662",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Identifica estructuras anatómicas del sistema auditivo",
+            "Reconoce procesos fisiológicos de la audición",
+            "Identifica patologías auditivas y sus manifestaciones",
+            "Relaciona anatomía auditiva con tipo de hipoacusia"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado estructuras del oído",
+            "Se han reconocido procesos auditivos",
+            "Se han identificado patologías auditivas",
+            "Se han relacionado alteraciones con hipoacusias"
+          ]
+        },
+        "Atención al hipoacúsico": {
+          "codigo": "0663",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de comunicación con personas hipoacúsicas",
+            "Informa sobre ayudas técnicas para la audición",
+            "Asesora sobre recursos para personas con discapacidad auditiva",
+            "Aplica técnicas de apoyo psicosocial a hipoacúsicos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de comunicación",
+            "Se ha informado sobre ayudas técnicas",
+            "Se ha asesorado sobre recursos",
+            "Se ha proporcionado apoyo psicosocial"
+          ]
+        },
+        "Elaboración de moldes y protectores auditivos": {
+          "codigo": "0664",
+          "horas": 231,
+          "resultados_aprendizaje": [
+            "Realiza toma de impresiones del conducto auditivo",
+            "Elabora moldes auriculares a medida",
+            "Elabora protectores auditivos personalizados",
+            "Adapta moldes auriculares al usuario"
+          ],
+          "criterios_evaluacion": [
+            "Se han tomado impresiones del conducto auditivo",
+            "Se han elaborado moldes auriculares",
+            "Se han elaborado protectores personalizados",
+            "Se han adaptado moldes al usuario"
+          ]
+        },
+        "Audición y comunicación verbal": {
+          "codigo": "0665",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Realiza pruebas de valoración auditiva subjetiva",
+            "Aplica técnicas de audiometría tonal y verbal",
+            "Evalúa discriminación del habla en hipoacúsicos",
+            "Interpreta audiogramas y resultados audiométricos"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado audiometrías tonales",
+            "Se han aplicado técnicas de logoaudiometría",
+            "Se ha evaluado discriminación verbal",
+            "Se han interpretado audiogramas"
+          ]
+        },
+        "Elección y adaptación de prótesis auditivas": {
+          "codigo": "0666",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Selecciona prótesis auditivas según tipo de hipoacusia",
+            "Programa prótesis auditivas digitales",
+            "Adapta audioprótesis realizando ajustes personalizados",
+            "Realiza seguimiento de uso de prótesis auditivas"
+          ],
+          "criterios_evaluacion": [
+            "Se han seleccionado prótesis apropiadas",
+            "Se han programado audioprótesis digitales",
+            "Se han adaptado prótesis al usuario",
+            "Se ha realizado seguimiento de adaptación"
+          ]
+        },
+        "Administración y gestión de gabinete audioprotésico": {
+          "codigo": "0667",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Gestiona aprovisionamiento de productos audioprotésicos",
+            "Tramita autorizaciones y financiación de audioprótesis",
+            "Gestiona documentación técnica y administrativa",
+            "Organiza el gabinete audioprotésico"
+          ],
+          "criterios_evaluacion": [
+            "Se ha gestionado aprovisionamiento",
+            "Se han tramitado autorizaciones",
+            "Se ha gestionado documentación",
+            "Se ha organizado el gabinete"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en audiología protésica",
+            "Aplica prevención de riesgos en gabinete audioprotésico",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional como audioprotesista"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en gabinetes de audiología protésica",
+            "Aplica competencias en adaptación de audioprótesis",
+            "Realiza audiometrías y adaptaciones en contexto real",
+            "Desarrolla actitudes profesionales del audioprotesista"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado audiometrías",
+            "Se han adaptado prótesis auditivas",
+            "Se ha trabajado con el equipo del gabinete",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Prótesis Dentales": {
+      "codigo": "SAN309",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Diseño de prótesis dentales": {
+          "codigo": "0739",
+          "horas": 100,
+          "resultados_aprendizaje": [
+            "Diseña prótesis dentales removibles según prescripción",
+            "Diseña prótesis dentales fijas sobre dientes y implantes",
+            "Aplica tecnologías de diseño asistido por ordenador (CAD)",
+            "Planifica procesos de elaboración de prótesis"
+          ],
+          "criterios_evaluacion": [
+            "Se han diseñado prótesis removibles",
+            "Se han diseñado prótesis fijas",
+            "Se han aplicado tecnologías CAD",
+            "Se han planificado procesos de elaboración"
+          ]
+        },
+        "Prótesis completas removibles": {
+          "codigo": "0740",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Elabora modelos de trabajo para prótesis completas",
+            "Realiza montaje de dientes en prótesis completas",
+            "Elabora bases protésicas de prótesis completas",
+            "Termina y pule prótesis completas"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado modelos de trabajo",
+            "Se han montado dientes artificiales",
+            "Se han elaborado bases protésicas",
+            "Se han terminado prótesis completas"
+          ]
+        },
+        "Aparatos de ortodoncia y férulas oclusales": {
+          "codigo": "0741",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Elabora aparatos de ortodoncia removible",
+            "Elabora aparatos funcionales de ortodoncia",
+            "Elabora férulas oclusales de descarga",
+            "Realiza mantenimiento y reparaciones de aparatos"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado aparatos removibles",
+            "Se han elaborado aparatos funcionales",
+            "Se han elaborado férulas oclusales",
+            "Se han reparado aparatos ortodóncicos"
+          ]
+        },
+        "Prótesis parciales removibles metálicas, de resina y mixtas": {
+          "codigo": "0742",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Elabora estructuras metálicas de prótesis parciales",
+            "Elabora prótesis parciales de resina",
+            "Elabora prótesis mixtas (metal-resina)",
+            "Realiza reparaciones de prótesis parciales"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado estructuras metálicas",
+            "Se han elaborado prótesis de resina",
+            "Se han elaborado prótesis mixtas",
+            "Se han reparado prótesis parciales"
+          ]
+        },
+        "Restauraciones y estructuras metálicas coladas": {
+          "codigo": "0743",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Elabora restauraciones metálicas coladas (incrustaciones, coronas)",
+            "Realiza técnicas de colado de metales preciosos y no preciosos",
+            "Elabora estructuras de prótesis fijas metálicas",
+            "Aplica técnicas de repasado y acabado de colados"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado incrustaciones metálicas",
+            "Se han realizado colados metálicos",
+            "Se han elaborado estructuras de prótesis fijas",
+            "Se han repasado y acabado colados"
+          ]
+        },
+        "Restauraciones y recubrimientos estéticos": {
+          "codigo": "0744",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Elabora restauraciones estéticas de resina compuesta",
+            "Elabora restauraciones cerámicas (incrustaciones, carillas)",
+            "Realiza recubrimientos estéticos en prótesis fijas",
+            "Aplica técnicas de estratificación cerámica"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado restauraciones de resina",
+            "Se han elaborado restauraciones cerámicas",
+            "Se han realizado recubrimientos estéticos",
+            "Se ha aplicado estratificación cerámica"
+          ]
+        },
+        "Prótesis sobre implantes": {
+          "codigo": "0745",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Elabora prótesis fijas sobre implantes atornilladas",
+            "Elabora prótesis fijas sobre implantes cementadas",
+            "Elabora prótesis removibles sobre implantes (sobredentaduras)",
+            "Maneja sistemas de conexión implante-prótesis"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado prótesis atornilladas",
+            "Se han elaborado prótesis cementadas",
+            "Se han elaborado sobredentaduras",
+            "Se han manejado sistemas de conexión"
+          ]
+        },
+        "Administración, gestión y comercialización en el laboratorio": {
+          "codigo": "0746",
+          "horas": 66,
+          "resultados_aprendizaje": [
+            "Gestiona aprovisionamiento de materiales del laboratorio",
+            "Tramita documentación técnica y administrativa",
+            "Aplica normativa de calidad en laboratorio protésico",
+            "Organiza el laboratorio de prótesis dental"
+          ],
+          "criterios_evaluacion": [
+            "Se ha gestionado aprovisionamiento",
+            "Se ha tramitado documentación",
+            "Se ha aplicado normativa de calidad",
+            "Se ha organizado el laboratorio"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en prótesis dental",
+            "Aplica prevención de riesgos en laboratorio protésico",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional como protésico dental"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas preventivas",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 380,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en laboratorios de prótesis dental",
+            "Aplica competencias en elaboración de prótesis",
+            "Elabora prótesis dentales en contexto profesional",
+            "Desarrolla actitudes profesionales del protésico dental"
+          ],
+          "criterios_evaluacion": [
+            "Se han elaborado prótesis dentales",
+            "Se han aplicado protocolos del laboratorio",
+            "Se ha trabajado con el equipo del laboratorio",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    },
+    "Radioterapia y Dosimetría": {
+      "codigo": "SAN310",
+      "duracion": "2000 horas",
+      "modulos": {
+        "Atención al paciente": {
+          "codigo": "0668",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica técnicas de comunicación con pacientes oncológicos",
+            "Informa al paciente sobre tratamientos de radioterapia",
+            "Proporciona apoyo emocional a pacientes y familiares",
+            "Aplica técnicas de asepsia en atención al paciente"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado técnicas de comunicación terapéutica",
+            "Se ha informado al paciente sobre radioterapia",
+            "Se ha proporcionado apoyo emocional",
+            "Se han aplicado medidas de asepsia"
+          ]
+        },
+        "Fundamentos físicos y equipos": {
+          "codigo": "0669",
+          "horas": 198,
+          "resultados_aprendizaje": [
+            "Caracteriza radiaciones ionizantes utilizadas en radioterapia",
+            "Identifica equipos de radioterapia externa (aceleradores lineales)",
+            "Reconoce equipos de braquiterapia y sus componentes",
+            "Maneja equipos de dosimetría física"
+          ],
+          "criterios_evaluacion": [
+            "Se han caracterizado radiaciones terapéuticas",
+            "Se han identificado aceleradores lineales",
+            "Se han reconocido equipos de braquiterapia",
+            "Se han manejado dosímetros"
+          ]
+        },
+        "Anatomía por la imagen": {
+          "codigo": "0670",
+          "horas": 231,
+          "resultados_aprendizaje": [
+            "Identifica anatomía humana en imágenes de TC y RM",
+            "Reconoce anatomía sectorial en imágenes axiales",
+            "Identifica localizaciones tumorales en imágenes",
+            "Aplica terminología anatómica en radioterapia"
+          ],
+          "criterios_evaluacion": [
+            "Se ha identificado anatomía en TC",
+            "Se ha reconocido anatomía sectorial",
+            "Se han identificado tumores en imágenes",
+            "Se ha aplicado terminología anatómica"
+          ]
+        },
+        "Protección radiológica": {
+          "codigo": "0671",
+          "horas": 132,
+          "resultados_aprendizaje": [
+            "Aplica normativa de protección radiológica en radioterapia",
+            "Utiliza equipos de protección individual",
+            "Aplica protocolos de seguridad radiológica",
+            "Gestiona fuentes radiactivas según normativa"
+          ],
+          "criterios_evaluacion": [
+            "Se ha aplicado normativa de protección",
+            "Se han utilizado equipos de protección",
+            "Se han aplicado protocolos de seguridad",
+            "Se han gestionado fuentes radiactivas"
+          ]
+        },
+        "Simulación del tratamiento": {
+          "codigo": "0672",
+          "horas": 165,
+          "resultados_aprendizaje": [
+            "Realiza simulación de tratamientos de radioterapia",
+            "Posiciona al paciente para simulación según localización tumoral",
+            "Aplica sistemas de inmovilización y reproducibilidad",
+            "Obtiene imágenes de simulación para planificación"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado simulaciones de tratamiento",
+            "Se ha posicionado al paciente correctamente",
+            "Se han aplicado sistemas de inmovilización",
+            "Se han obtenido imágenes de simulación"
+          ]
+        },
+        "Dosimetría física y clínica": {
+          "codigo": "0673",
+          "horas": 90,
+          "resultados_aprendizaje": [
+            "Realiza medidas de dosis de radiación",
+            "Calcula dosis absorbida en tejidos",
+            "Aplica sistemas de planificación de tratamientos",
+            "Verifica dosis de tratamientos de radioterapia"
+          ],
+          "criterios_evaluacion": [
+            "Se han realizado medidas de dosis",
+            "Se han calculado dosis absorbidas",
+            "Se han utilizado sistemas de planificación",
+            "Se han verificado dosis de tratamientos"
+          ]
+        },
+        "Tratamientos con teleterapia": {
+          "codigo": "0674",
+          "horas": 150,
+          "resultados_aprendizaje": [
+            "Aplica tratamientos de radioterapia externa según planificación",
+            "Posiciona al paciente para tratamiento de teleterapia",
+            "Verifica campos de tratamiento mediante imagen portal",
+            "Registra sesiones de tratamiento según protocolos"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado tratamientos de teleterapia",
+            "Se ha posicionado al paciente para tratamiento",
+            "Se han verificado campos de tratamiento",
+            "Se han registrado sesiones correctamente"
+          ]
+        },
+        "Tratamientos con braquiterapia": {
+          "codigo": "0675",
+          "horas": 150,
+          "resultados_aprendizaje": [
+            "Aplica tratamientos de braquiterapia según planificación",
+            "Maneja fuentes radiactivas según protocolos de seguridad",
+            "Aplica técnicas de braquiterapia intersticial y intracavitaria",
+            "Verifica aplicadores y fuentes de braquiterapia"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado tratamientos de braquiterapia",
+            "Se han manejado fuentes radiactivas con seguridad",
+            "Se han aplicado técnicas de braquiterapia",
+            "Se han verificado aplicadores y fuentes"
+          ]
+        },
+        "Formación y orientación laboral": {
+          "codigo": "FOL",
+          "horas": 99,
+          "resultados_aprendizaje": [
+            "Selecciona oportunidades de empleo en radioterapia",
+            "Aplica prevención de riesgos radiológicos",
+            "Ejerce derechos y cumple obligaciones laborales",
+            "Gestiona carrera profesional en radioterapia"
+          ],
+          "criterios_evaluacion": [
+            "Se han identificado salidas profesionales",
+            "Se han aplicado medidas de protección radiológica",
+            "Se han ejercido derechos laborales",
+            "Se ha planificado la carrera profesional"
+          ]
+        },
+        "Formación en centros de trabajo": {
+          "codigo": "FCT",
+          "horas": 510,
+          "resultados_aprendizaje": [
+            "Realiza prácticas en servicios de radioterapia oncológica",
+            "Aplica competencias en tratamientos de radioterapia",
+            "Trata pacientes oncológicos en contexto profesional",
+            "Desarrolla actitudes profesionales del técnico en radioterapia"
+          ],
+          "criterios_evaluacion": [
+            "Se han aplicado tratamientos de radioterapia",
+            "Se han simulado tratamientos",
+            "Se ha trabajado con el equipo oncológico",
+            "Se ha mantenido actitud profesional"
+          ]
+        }
+      }
+    }
+  },
+  "metodologias_activas": [
+    "Aprendizaje Basado en Problemas (ABP)",
+    "Aprendizaje Basado en Proyectos",
+    "Aprendizaje Colaborativo",
+    "Gamificación",
+    "Flipped Classroom (Aula Invertida)",
+    "Aprendizaje Basado en Casos",
+    "Simulación Clínica",
+    "Role Playing",
+    "Design Thinking",
+    "Aprendizaje Servicio",
+    "Mentoring/Tutorización",
+    "Aprendizaje Basado en Competencias",
+    "Aprendizaje Basado en Retos"
+  ],
+  "competencias": {
+    "profesionales": [
+      "Aplicar técnicas y protocolos de trabajo según normativa",
+      "Utilizar equipos e instrumental sanitario de forma segura",
+      "Mantener la seguridad e higiene en el trabajo",
+      "Aplicar medidas de radioprotección y bioseguridad",
+      "Realizar procedimientos técnicos con precisión",
+      "Gestionar la documentación sanitaria",
+      "Trabajar en equipo multidisciplinar",
+      "Aplicar protocolos de calidad asistencial",
+      "Mantener equipos e instrumental según fabricante",
+      "Gestionar recursos materiales eficientemente"
+    ],
+    "personales": [
+      "Desarrollar la responsabilidad profesional",
+      "Mantener la confidencialidad de la información",
+      "Adaptarse a nuevas situaciones laborales",
+      "Resolver problemas de forma autónoma",
+      "Organizar y planificar el trabajo",
+      "Mantener el aprendizaje continuo",
+      "Desarrollar la capacidad crítica",
+      "Tomar decisiones fundamentadas",
+      "Gestionar el estrés en situaciones críticas",
+      "Mostrar iniciativa y espíritu emprendedor"
+    ],
+    "sociales": [
+      "Comunicarse de forma efectiva con pacientes",
+      "Respetar la diversidad cultural y personal",
+      "Trabajar en equipo de forma colaborativa",
+      "Ejercer la ciudadanía democrática",
+      "Contribuir al desarrollo sostenible",
+      "Promover la igualdad efectiva",
+      "Prevenir conflictos y resolverlos pacíficamente",
+      "Fomentar la participación ciudadana",
+      "Respetar los derechos de los pacientes",
+      "Promover hábitos de vida saludable"
+    ]
+  }
