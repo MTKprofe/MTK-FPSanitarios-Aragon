@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 # --- A. Leer la clave del candado ---
 # Le dice a Python que busque la clave que pusiste en el panel Secrets.
-API_KEY = os.environ.get('GEMINI_API_MINOMBRE')
+API_KEY = os.environ.get('GEMINI_API_KEY')
 
 # --- B. Configurar el servicio de Gemini ---
 if API_KEY:
@@ -13,7 +13,7 @@ if API_KEY:
 else:
     # Si la clave NO se encuentra, muestra un mensaje y detiene la aplicación
     st.error("¡Ups! Necesitas configurar tu Clave API de Gemini.")
-    st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_MINOMBRE' esté guardada correctamente.")
+    st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_KEY' esté guardada correctamente.")
     st.stop()
 import pandas as pd
 import json
