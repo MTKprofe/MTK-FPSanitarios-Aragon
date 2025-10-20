@@ -208,12 +208,12 @@ class GeminiService:
         - **Módulo:** {datos.get('modulo', '')}
         - **Producto Final:** {datos.get('producto_final', '')}
         - **Instrumento:** Rúbrica analítica
-        - **Peso en la calificación final:** [Especificar porcentaje]
+        - **en la calificación final:** [Especificar porcentaje]
 
         ## Criterios de Evaluación y Niveles de Desempeño
 
         ### Criterio 1: [Nombre del criterio basado en los CE seleccionados]
-        **Peso:** [% sobre nota final]
+        **:** [% sobre nota final]
 
         | NIVEL | EXCELENTE (4) | SATISFACTORIO (3) | EN DESARROLLO (2) | INSUFICIENTE (1) |
         |-------|---------------|-------------------|-------------------|------------------|
@@ -245,10 +245,10 @@ class GeminiService:
         ## Cálculo de la Calificación Final
 
         **Fórmula de cálculo:**
-        - Criterio 1: ___ × {peso}% = ___
-        - Criterio 2: ___ × {peso}% = ___
+        - Criterio 1: ___ × % = ___
+        - Criterio 2: ___ × % = ___
         - [...]
-        - **NOTA FINAL = Σ (Puntuación × Peso)**
+        - **NOTA FINAL = Σ (Puntuación)**
 
         ## Escala de Calificación
         - **EXCELENTE (9-10):** Supera ampliamente los objetivos
