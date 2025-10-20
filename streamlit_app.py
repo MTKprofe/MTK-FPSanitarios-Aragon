@@ -14,7 +14,7 @@ else:
     # Si la clave NO se encuentra, muestra un mensaje y detiene la aplicación
     st.error("¡Ups! Necesitas configurar tu Clave API de Gemini.")
     st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_MINOMBRE' esté guardada correctamente.")
-    st.stop()import streamlit as st
+    st.stop()
 import pandas as pd
 import json
 from datetime import datetime
