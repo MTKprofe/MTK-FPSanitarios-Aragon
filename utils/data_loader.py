@@ -2,24 +2,21 @@ import json
 import os
 import streamlit as st
 
-@st.cache_data
+@st.cache_data()
 def load_ciclos_data():
     """Carga los datos de ciclos formativos desde el archivo JSON"""
-    
+
     try:
-        data_path = os.path.join("data", "ciclos_sanitarios.json")
-        
-        if os.path.exists(data_path):
-            with open(data_path, 'r', encoding='utf-8') as file:
-                return json.load(file)
-        else:
-            # Si no existe el archivo, retornar datos básicos
-            st.error("No se pudo cargar la base de datos de ciclos formativos")
-            return _get_default_data()
-            
+        # RUTA CORREGIDA: Esto soluciona los errores de ruta y existencia
+        data_path = "data/ciclos_sanitarios.json"
+
+        with open(data_path, "r", encoding="utf-8") as file:
+            return json.load(file)
+
     except Exception as e:
+        # Si falla, muestra el error y usa datos por defecto
         st.error(f"Error al cargar los datos: {str(e)}")
-        return _get_default_data()
+        return get_default_data()
 
 def _get_default_data():
     """Retorna datos básicos por defecto en caso de error"""
