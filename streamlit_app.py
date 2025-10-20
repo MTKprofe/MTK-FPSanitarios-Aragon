@@ -19,7 +19,7 @@ import pandas as pd
 import json
 from datetime import datetime
 import os
-from componentes.selectors import render_selectors
+from components.selectors import render_selectors
 from services.gemini_service import GeminiService
 from services.pdf_generator import generate_pdf
 from utils.data_loader import load_ciclos_data
