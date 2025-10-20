@@ -103,7 +103,6 @@ with main_container:
             contexto = st.text_area(
                 "Contexto profesional específico",
                 placeholder="Describe el contexto profesional donde se aplicará el aprendizaje...",
-                height=100
             )
             
         with col2:
