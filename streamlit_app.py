@@ -39,14 +39,7 @@ import streamlit as st
 gemini_client_instance = get_gemini_client() 
 
 def get_gemini_client():
-    """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
-    # 'os' ya debería estar importado al principio del archivo
-    api_key = os.environ.get("GEMINI_API_KEY") 
-    if not api_key:
-        # Si la clave NO se encuentra, muestra un mensaje y detiene la aplicación
-    st.error("¡Ups! Necesitas configurar tu Clave API de Gemini.")
-    st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_KEY' esté guardada correctamente.")
-    st.stop()
+    """Inicializa y cachea el cliente de la API de Gemini de forma segura.""" 
 else:
     # Si la clave se encuentra, configura el servicio de Google
     genai.configure(api_key=API_KEY)
