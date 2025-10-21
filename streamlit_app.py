@@ -23,6 +23,32 @@ from components.selectors import render_selectors
 from services.gemini_service import GeminiService
 from services.pdf_generator import generate_pdf
 from utils.data_loader import load_ciclos_data
+# Después de from utils.data_loader import load_ciclos_data
+# -------------------------------------------------------------------
+
+# 1. Asegurarse de que estas importaciones están disponibles
+from google import genai 
+
+# 2. Función de carga segura con caché
+@st.cache_resource
+def get_gemini_client():
+    """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
+    # 'os' ya debería estar importado al principio del archivo
+    api_key = os.environ.get("GEMINI_API_KEY") 
+    if not api_key:
+        return None 
+    return genai.Client(api_key=api_key)
+
+# 3. Inicialización del cliente
+gemini_client_instance = get_gemini_client() 
+
+# 4. Inicialización del servicio (Reemplace la línea antigua)
+# Busque la línea donde inicializaba el servicio (ej: gemini_service = GeminiService())
+# y péguela aquí abajo.
+gemini_service = GeminiService(client=gemini_client_instance) 
+
+# -------------------------------------------------------------------
+# Aquí continuaría el resto de su aplicación (st.set_page_config, etc.)
 # Parte Superior del archivo streamlit_app.py
 import os 
 import streamlit as st
