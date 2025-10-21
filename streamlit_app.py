@@ -26,22 +26,10 @@ from utils.data_loader import load_ciclos_data
 from google import genai 
 import streamlit as st 
 
-@st.cache_resource
-def get_gemini_client():
-    """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
-    api_key = os.environ.get("GEMINI_API_KEY") 
-    if not api_key:
-        return None 
-    return genai.Client(api_key=api_key)
 
 # 1. Inicialización del cliente
 gemini_client_instance = get_gemini_client() 
 
-# ----------------------------------------------------------------------
-# AÑADA ESTO: REEMPLAZA LA LÍNEA ANTIGUA DE INICIALIZACIÓN DEL SERVICIO
-# (Borre la línea donde se inicializa gemini_service y ponga esta)
-gemini_service = GeminiService(client=gemini_client_instance) 
-# ----------------------------------------------------------------------
 def get_gemini_client():
     """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
     # 'os' ya debería estar importado al principio del archivo
@@ -53,10 +41,9 @@ def get_gemini_client():
 # 3. Inicialización del cliente
 gemini_client_instance = get_gemini_client() 
 
-# 4. Inicialización del servicio (Reemplace la línea antigua)
-# Busque la línea donde inicializaba el servicio (ej: gemini_service = GeminiService())
-# y péguela aquí abajo.
-gemini_service = GeminiService(client=gemini_client_instance) 
+# 4. Inicialización del servicio
+
+gemini_service = GeminiService() 
 
 # -------------------------------------------------------------------
 # Aquí continuaría el resto de su aplicación (st.set_page_config, etc.)
