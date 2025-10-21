@@ -11,6 +11,7 @@ class GeminiService:
     self.model_name = "gemini-2.5-flash"
     def generar_situacion_aprendizaje(self, datos_seleccion):
         """Genera una situación de aprendizaje completa usando Gemini AI"""
+        Genera el documento completo con sus 8 puntos. El **Punto 7: Actividades del Alumnado** debe ser la **sección más larga y detallada** (usa un mínimo de 500 palabras). Utiliza una **lista numerada con al menos 6 actividades** claras. **TU TAREA MÁS IMPORTANTE ES COMPLETAR ÍNTEGRAMENTE EL DOCUMENTO, INCLUYENDO EL PUNTO 7 Y EL PUNTO 8, SIN DETENERTE POR NINGÚN MOTIVO.**
         
         prompt = self._construir_prompt_situacion(datos_seleccion)
         
