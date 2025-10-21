@@ -1,6 +1,14 @@
 import os
 import streamlit as st
-import google.generativeai as genai 
+import pandas as pd
+import json
+from datetime import datetime
+import google.generativeai as genai
+
+from components.selectors import render_selectors
+from services.gemini_service import GeminiService
+from services.pdf_generator import generate_pdf
+from utils.data_loader import load_ciclos_data
 
 # --- A. Leer la clave del candado ---
 # Le dice a Python que busque la clave que pusiste en el panel Secrets.
@@ -35,8 +43,13 @@ def get_gemini_client():
     # 'os' ya debería estar importado al principio del archivo
     api_key = os.environ.get("GEMINI_API_KEY") 
     if not api_key:
-        return None 
-    return genai.Client(api_key=api_key)
+        # Si la clave NO se encuentra, muestra un mensaje y detiene la aplicación
+    st.error("¡Ups! Necesitas configurar tu Clave API de Gemini.")
+    st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_KEY' esté guardada correctamente.")
+    st.stop()
+else:
+    # Si la clave se encuentra, configura el servicio de Google
+    genai.configure(api_key=API_KEY)
 
 # 3. Inicialización del cliente
 gemini_client_instance = get_gemini_client() 
@@ -45,34 +58,30 @@ gemini_client_instance = get_gemini_client()
 
 gemini_service = GeminiService() 
 
-# -------------------------------------------------------------------
-# Aquí continuaría el resto de su aplicación (st.set_page_config, etc.)
-# Parte Superior del archivo streamlit_app.py
 import os 
 import streamlit as st
 from google import genai # Asegúrate de que esta línea esté, si no, añádela
 # ... otras importaciones
 from services.gemini_service import GeminiService
-# -------------------------------------------------------------------
-# AQUI EMPIEZA LA SOLUCIÓN DEL PUNTO 2
-# -------------------------------------------------------------------
 
 @st.cache_resource
-def get_gemini_client():
-    """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
-    # (El código que te di va aquí)
-    # ...
+def init_services():
+    return GeminiService()
 
+gemini_service = init_services()
+
+@st.cache_data
+def load_data():
+    return load_ciclos_data()
+    
 # Inicialización única del cliente
 gemini_client_instance = get_gemini_client() 
 
-# -------------------------------------------------------------------
-# LÓGICA PRINCIPAL DE LA APLICACIÓN (st.set_page_config, etc.)
-# -------------------------------------------------------------------
+--
 
 # Y luego más abajo, donde inicializas el servicio:
 gemini_service = GeminiService(client=gemini_client_instance)
-# SOLUCION DEFINITIVA PARA NAMEERROR
+
 if 'peso' not in st.session_state:
     peso = None
 # Configuración de la página
@@ -82,7 +91,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # Título principal
 st.title("🏥 Crea tus Situaciones de Aprendizaje con IA")
 st.subheader("Tu asistente personal para FP Sanitaria en Aragón")
