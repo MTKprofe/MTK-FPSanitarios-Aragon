@@ -6,8 +6,6 @@ from google.genai import types
 class GeminiService:
     def __init__(self):
         """Inicializa el servicio de Gemini con la API key"""
-        api_key = os.environ.get("GEMINI_API_KEY")
-        self.client = genai.Client(api_key=api_key)
         self.model_name = "gemini-2.5-flash"
     
     def generar_situacion_aprendizaje(self, datos_seleccion):
