@@ -178,9 +178,7 @@ class GeminiService:
         - Incluir aspectos de digitalización y sostenibilidad cuando sea pertinente
         - Considerar la perspectiva de género y diversidad
         - Ser innovadora pero factible con los recursos indicados
-        - Es obligatorio que la Situación de Aprendizaje se genere con 8 puntos. Para garantizar la calidad, el Punto 2 al Punto 5 (ambos incluidos) deben ser descritos de forma concisa y sin exceder los dos párrafos cada uno. La mayor parte de la extensión debe ser dedicada exclusivamente al Punto 7: Actividades del Alumnado y al Punto 8: Evaluación final, completando la lista de actividades con un mínimo de 6 ítems detallados. NO TE DETENGAS antes de completar el último punto."Debes generar la 'Situación de Aprendizaje' con 8 puntos, y el Punto 7: Actividades del Alumnado debe ser la sección más extensa, utilizando una lista con al menos 4 actividades claras. TU TAREA MÁS IMPORTANTE ES COMPLETAR ÍNTEGRAMENTE EL DOCUMENTO,Es obligatorio que la Situación de Aprendizaje se genere con 8 puntos. Para garantizar la calidad, el Punto 2 al Punto 5 (ambos incluidos) deben ser descritos de forma concisa y sin exceder los dos párrafos cada uno. La mayor parte de la extensión debe ser dedicada exclusivamente al Punto 7: Actividades del Alumnado y al Punto 8: Evaluación final, completando la lista de actividades con un mínimo de 6 ítems detallados. NO TE DETENGAS antes de completar el último punto
-        """
-        return prompt
+        - Genera el documento completo con sus 8 puntos. El Punto 7: Actividades del Alumnado debe ser la sección más larga y detallada, utilizando una lista de 6 actividades claras. Finaliza el documento con el Punto 8 sin falta
     
     def _construir_prompt_rubrica(self, datos, situacion):
         """Construye el prompt para generar la rúbrica de evaluación"""
