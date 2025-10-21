@@ -4,10 +4,11 @@ from google import genai
 from google.genai import types
 
 class GeminiService:
-    def __init__(self, client=None):
-        """Inicializa el servicio de Gemini con la API key"""
-        self.client=client
-        self.model_name = "gemini-2.5-flash"
+    def __init__(self):
+    """Inicializa el servicio de Gemini con la API Key"""
+    api_key = os.getenv("GEMINI_API_KEY", "default_key")
+    self.client = genai.Client(api_key=api_key)
+    self.model_name = "gemini-2.5-flash"
     def generar_situacion_aprendizaje(self, datos_seleccion):
         """Genera una situación de aprendizaje completa usando Gemini AI"""
         
