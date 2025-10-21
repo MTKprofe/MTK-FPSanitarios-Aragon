@@ -178,7 +178,7 @@ class GeminiService:
         - Incluir aspectos de digitalización y sostenibilidad cuando sea pertinente
         - Considerar la perspectiva de género y diversidad
         - Ser innovadora pero factible con los recursos indicados
-        - Debes generar la Situación de Aprendizaje con 8 puntos, y el Punto 7: Actividades del Alumnado debe ser la sección más extensa, utilizando una lista con al menos 6 actividades claras. ES CRUCIAL QUE NO TE DETENGAS antes de terminar el último punto"""
+        - Debes generar la 'Situación de Aprendizaje' con 8 puntos, y el Punto 7: Actividades del Alumnado debe ser la sección más extensa, utilizando una lista con al menos 6 actividades claras. ES CRUCIAL QUE NO TE DETENGAS antes de terminar el último punto
         """
         return prompt
     
