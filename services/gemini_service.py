@@ -5,13 +5,20 @@ from google.genai import types
 
 class GeminiService:
     def __init__(self):
-    """Inicializa el servicio de Gemini con la API Key"""
-    api_key = os.getenv("GEMINI_API_KEY", "default_key")
-    self.client = genai.Client(api_key=api_key)
-    self.model_name = "gemini-2.5-flash"
+        """Inicializa el servicio de Gemini con la API Key"""
+        # La clave API se lee aquí. Aunque Streamlit ya hace un chequeo, es bueno tener el fallback.
+        api_key = os.getenv("GEMINI_API_KEY", None)
+        if api_key:
+            self.client = genai.Client(api_key=api_key)
+        else:
+            # Intentar inicializar sin clave si no se encuentra (Streamlit debería haber detenido la app antes)
+            self.client = genai.Client()
+            
+        self.model_name = "gemini-2.5-flash"
+
     def generar_situacion_aprendizaje(self, datos_seleccion):
         """Genera una situación de aprendizaje completa usando Gemini AI"""
-        Genera el documento completo con sus 8 puntos. El **Punto 7: Actividades del Alumnado** debe ser la **sección más larga y detallada** (usa un mínimo de 500 palabras). Utiliza una **lista numerada con al menos 6 actividades** claras. **TU TAREA MÁS IMPORTANTE ES COMPLETAR ÍNTEGRAMENTE EL DOCUMENTO, INCLUYENDO EL PUNTO 7 Y EL PUNTO 8, SIN DETENERTE POR NINGÚN MOTIVO.**
+        # El texto de la instrucción estricta se ha movido a _construir_prompt_situacion para evitar un SyntaxError aquí.
         
         prompt = self._construir_prompt_situacion(datos_seleccion)
         
@@ -20,14 +27,17 @@ class GeminiService:
                 model=self.model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
+                    # Ajustamos la temperatura (creatividad) según el input del usuario
                     temperature=datos_seleccion.get("creatividad", 0.7),
-                    max_output_tokens=4000
+                    # Aumentamos los tokens a 8192 para forzar la longitud del Punto 7
+                    max_output_tokens=8192 
                 )
             )
             
             return response.text or "Error: No se pudo generar la situación de aprendizaje"
             
         except Exception as e:
+            # Propagar el error para que Streamlit lo maneje
             raise Exception(f"Error al generar situación de aprendizaje: {str(e)}")
     
     def generar_rubrica(self, datos_seleccion, situacion_aprendizaje):
@@ -41,7 +51,7 @@ class GeminiService:
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     temperature=0.5,  # Menos creatividad para rúbricas más estructuradas
-                    max_output_tokens=3000
+                    max_output_tokens=4000
                 )
             )
             
@@ -94,14 +104,7 @@ class GeminiService:
         # SITUACIÓN DE APRENDIZAJE: [Título atractivo y específico]
 
         ## 1. IDENTIFICACIÓN
-        - **Título:** 
-        - **Ciclo Formativo:** 
-        - **Módulo Profesional:** 
-        - **Nivel:** 
-        - **Duración:** 
-        - **Temporalización:** 
-
-        ## 2. CONTEXTUALIZACIÓN Y JUSTIFICACIÓN
+        - **Título:** - **Ciclo Formativo:** - **Módulo Profesional:** - **Nivel:** - **Duración:** - **Temporalización:** ## 2. CONTEXTUALIZACIÓN Y JUSTIFICACIÓN
         [Descripción del contexto profesional real donde se desarrolla, justificación pedagógica alineada con LOMLOE y normativa aragonesa]
 
         ## 3. OBJETIVOS Y COMPETENCIAS
@@ -109,11 +112,7 @@ class GeminiService:
         [3-5 objetivos específicos y medibles]
 
         ### Competencias a Desarrollar:
-        - **Competencia general del ciclo:** 
-        - **Competencias profesionales:** 
-        - **Competencias personales y sociales:** 
-
-        ## 4. RESULTADOS DE APRENDIZAJE Y CRITERIOS DE EVALUACIÓN
+        - **Competencia general del ciclo:** - **Competencias profesionales:** - **Competencias personales y sociales:** ## 4. RESULTADOS DE APRENDIZAJE Y CRITERIOS DE EVALUACIÓN
         [Especificar exactamente los RA y CE seleccionados y cómo se trabajan]
 
         ## 5. SABERES BÁSICOS/CONTENIDOS
@@ -133,18 +132,8 @@ class GeminiService:
 
         ## 7. SECUENCIA DIDÁCTICA
         ### Fase 1: [Nombre de la fase]
-        - **Duración:** 
-        - **Actividades:** 
-        - **Recursos:** 
-        - **Evaluación:** 
-
-        ### Fase 2: [Nombre de la fase]
-        - **Duración:** 
-        - **Actividades:** 
-        - **Recursos:** 
-        - **Evaluación:** 
-
-        [Continuar con las fases necesarias según la duración]
+        - **Duración:** - **Actividades:** - **Recursos:** - **Evaluación:** ### Fase 2: [Nombre de la fase]
+        - **Duración:** - **Actividades:** - **Recursos:** - **Evaluación:** [Continuar con las fases necesarias según la duración]
 
         ## 8. RECURSOS Y MATERIALES
         ### Recursos Humanos:
@@ -178,10 +167,17 @@ class GeminiService:
         - Incluir aspectos de digitalización y sostenibilidad cuando sea pertinente
         - Considerar la perspectiva de género y diversidad
         - Ser innovadora pero factible con los recursos indicados
-        - Genera el documento completo con sus 8 puntos. si es necesaerio puedes abreviar en los puntos 2,3,4 y 5 pero los puntos 6,7 y 8 tienen que estár completos 
+        
         """
         
-    
+        # INSTRUCCIÓN ESTRICTA AÑADIDA PARA FORZAR LA COMPLETITUD DEL DOCUMENTO
+        instruccion_estricta = """
+        Genera el documento completo con todas las secciones de la estructura (1. a 12.). El **Punto 7: SECUENCIA DIDÁCTICA** (actividades) debe ser la **sección más larga y detallada** (usa un mínimo de 500 palabras). Utiliza una **lista numerada o subpuntos** para describir las actividades claras. **TU TAREA MÁS IMPORTANTE ES COMPLETAR ÍNTEGRAMENTE EL DOCUMENTO, INCLUYENDO EL PUNTO 7 Y EL PUNTO 8, SIN DETENERTE POR NINGÚN MOTIVO.**
+        """
+        
+        prompt += instruccion_estricta
+        return prompt
+
     def _construir_prompt_rubrica(self, datos, situacion):
         """Construye el prompt para generar la rúbrica de evaluación"""
         
@@ -208,12 +204,12 @@ class GeminiService:
         - **Módulo:** {datos.get('modulo', '')}
         - **Producto Final:** {datos.get('producto_final', '')}
         - **Instrumento:** Rúbrica analítica
-        - **en la calificación final:** [Especificar porcentaje]
+        - **Peso en la calificación final:** [Especificar porcentaje]
 
         ## Criterios de Evaluación y Niveles de Desempeño
 
         ### Criterio 1: [Nombre del criterio basado en los CE seleccionados]
-        **:** [% sobre nota final]
+        **Peso:** [% sobre nota final]
 
         | NIVEL | EXCELENTE (4) | SATISFACTORIO (3) | EN DESARROLLO (2) | INSUFICIENTE (1) |
         |-------|---------------|-------------------|-------------------|------------------|
