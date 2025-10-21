@@ -23,7 +23,9 @@ from components.selectors import render_selectors
 from services.gemini_service import GeminiService
 from services.pdf_generator import generate_pdf
 from utils.data_loader import load_ciclos_data
-
+# SOLUCION DEFINITIVA PARA NAMEERROR
+if 'peso' not in st.session_state:
+    peso = None
 # Configuración de la página
 st.set_page_config(
     page_title="Asistente IA - Situaciones de Aprendizaje FP Sanitaria Aragón",
