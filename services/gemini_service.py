@@ -20,8 +20,8 @@ class GeminiService:
                 model=self.model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    temperature=datos_seleccion.get("creatividad", 0.7),
-                    max_output_tokens=4000
+                    temperature=datos_seleccion.get("creatividad", 0.5),
+                    max_output_tokens=4096
                 )
             )
             
