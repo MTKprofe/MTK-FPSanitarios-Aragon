@@ -178,7 +178,9 @@ class GeminiService:
         - Incluir aspectos de digitalización y sostenibilidad cuando sea pertinente
         - Considerar la perspectiva de género y diversidad
         - Ser innovadora pero factible con los recursos indicados
-        - Genera el documento completo con sus 8 puntos. El Punto 7: Actividades del Alumnado debe ser la sección más larga y detallada, utilizando una lista de 6 actividades claras. Finaliza el documento con el Punto 8 sin falta
+        - Genera el documento completo con sus 8 puntos. si es necesaerio puedes abreviar en los puntos 2,3,4 y 5 pero los puntos 6,7 y 8 tienen que estár completos 
+        """
+        
     
     def _construir_prompt_rubrica(self, datos, situacion):
         """Construye el prompt para generar la rúbrica de evaluación"""
