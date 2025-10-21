@@ -23,6 +23,31 @@ from components.selectors import render_selectors
 from services.gemini_service import GeminiService
 from services.pdf_generator import generate_pdf
 from utils.data_loader import load_ciclos_data
+# Parte Superior del archivo streamlit_app.py
+import os 
+import streamlit as st
+from google import genai # Asegúrate de que esta línea esté, si no, añádela
+# ... otras importaciones
+from services.gemini_service import GeminiService
+# -------------------------------------------------------------------
+# AQUI EMPIEZA LA SOLUCIÓN DEL PUNTO 2
+# -------------------------------------------------------------------
+
+@st.cache_resource
+def get_gemini_client():
+    """Inicializa y cachea el cliente de la API de Gemini de forma segura."""
+    # (El código que te di va aquí)
+    # ...
+
+# Inicialización única del cliente
+gemini_client_instance = get_gemini_client() 
+
+# -------------------------------------------------------------------
+# LÓGICA PRINCIPAL DE LA APLICACIÓN (st.set_page_config, etc.)
+# -------------------------------------------------------------------
+
+# Y luego más abajo, donde inicializas el servicio:
+gemini_service = GeminiService(client=gemini_client_instance)
 # SOLUCION DEFINITIVA PARA NAMEERROR
 if 'peso' not in st.session_state:
     peso = None
