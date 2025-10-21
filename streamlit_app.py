@@ -10,73 +10,38 @@ from services.gemini_service import GeminiService
 from services.pdf_generator import generate_pdf
 from utils.data_loader import load_ciclos_data
 
-# --- A. Leer la clave del candado ---
-# Le dice a Python que busque la clave que pusiste en el panel Secrets.
+# --- Configuración de la clave API ---
+# Lee la clave de Secrets. Si no existe, detiene la app.
 API_KEY = os.environ.get('GEMINI_API_KEY')
-
-# --- B. Configurar el servicio de Gemini ---
-if API_KEY:
-    # Si  la clave se encuentra, configura el servicio de Google
-    genai.configure(api_key=API_KEY)
-else:
-    # Si la clave NO se encuentra, muestra un mensaje y detiene la aplicación
+if not API_KEY:
     st.error("¡Ups! Necesitas configurar tu Clave API de Gemini.")
-    st.info("Ve al panel de Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_KEY' esté guardada correctamente.")
+    st.info("Ve a Streamlit Secrets (candado 🔒) y asegúrate de que la clave 'GEMINI_API_KEY' esté guardada correctamente.")
     st.stop()
-import pandas as pd
-import json
-from datetime import datetime
-import os
-from components.selectors import render_selectors
-from services.gemini_service import GeminiService
-from services.pdf_generator import generate_pdf
-from utils.data_loader import load_ciclos_data
-from google import genai 
-import streamlit as st 
-
-
-# 1. Inicialización del cliente
-gemini_client_instance = get_gemini_client() 
-
-def get_gemini_client():
-    """Inicializa y cachea el cliente de la API de Gemini de forma segura.""" 
 else:
-    # Si la clave se encuentra, configura el servicio de Google
     genai.configure(api_key=API_KEY)
 
-# 3. Inicialización del cliente
-gemini_client_instance = get_gemini_client() 
 
-# 4. Inicialización del servicio
-
-gemini_service = GeminiService() 
-
-import os 
-import streamlit as st
-from google import genai # Asegúrate de que esta línea esté, si no, añádela
-# ... otras importaciones
-from services.gemini_service import GeminiService
-
+# --- Inicialización de Servicios y Datos con caché ---
 @st.cache_resource
 def init_services():
+    """Inicializa el servicio de Gemini con la clave API configurada."""
+    # La clave ya ha sido verificada y configurada arriba
     return GeminiService()
-
-gemini_service = init_services()
 
 @st.cache_data
 def load_data():
+    """Carga los datos de ciclos para los selectores."""
     return load_ciclos_data()
-    
-# Inicialización única del cliente
-gemini_client_instance = get_gemini_client() 
 
---
+# Inicializar
+gemini_service = init_services()
+ciclos_data = load_data()
 
-# Y luego más abajo, donde inicializas el servicio:
-gemini_service = GeminiService(client=gemini_client_instance)
 
+# SOLUCION DEFINITIVA PARA NAMEERROR
 if 'peso' not in st.session_state:
     peso = None
+
 # Configuración de la página
 st.set_page_config(
     page_title="Asistente IA - Situaciones de Aprendizaje FP Sanitaria Aragón",
@@ -84,23 +49,10 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 # Título principal
 st.title("🏥 Crea tus Situaciones de Aprendizaje con IA")
 st.subheader("Tu asistente personal para FP Sanitaria en Aragón")
-
-# Inicializar servicios
-@st.cache_resource
-def init_services():
-    return GeminiService()
-
-gemini_service = init_services()
-
-# Cargar datos
-@st.cache_data
-def load_data():
-    return load_ciclos_data()
-
-ciclos_data = load_data()
 
 # Sidebar con información institucional
 with st.sidebar:
@@ -251,7 +203,7 @@ with main_container:
                         - Copia la clave que te dan
                         
                         **Paso 2:** Ponla en la app
-                        - En Replit, ve a "Secrets" (candadito en el lateral)
+                        - En Streamlit Cloud, ve a "Secrets" (o en Replit/tu entorno, al archivo de secretos)
                         - Crea una nueva con nombre: `GEMINI_API_KEY`
                         - Pega tu clave como valor
                         
